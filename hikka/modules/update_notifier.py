@@ -9,12 +9,12 @@ from ..inline.types import InlineCall
 
 @loader.tds
 class UpdateNotifierMod(loader.Module):
-    """Tracks latest Hikka releases, and notifies you, if update is required"""
+    """Tracks latest Bampi releases, and notifies you, if update is required"""
 
     strings = {
         "name": "UpdateNotifier",
         "update_required": (
-            "🌘 <b>Bampi Update available!</b>\n\nNew Hikka version released.\n🔮"
+            "🌘 <b>Bampi Update available!</b>\n\nNew Bampi version released.\n🔮"
             " <b>Bampi <s>{}</s> -> {}</b>\n\n{}"
         ),
         "more": "\n<i><b>🎥 And {} more...</b></i>",
@@ -52,8 +52,8 @@ class UpdateNotifierMod(loader.Module):
 
     strings_de = {
         "update_required": (
-            "🌘 <b>Hikka Update verfügbar!</b>\n\nNeue Bampi Version veröffentlicht.\n🔮"
-            " <b>Hikka <s>{}</s> -> {}</b>\n\n{}"
+            "🌘 <b>Bampi Update verfügbar!</b>\n\nNeue Bampi Version veröffentlicht.\n🔮"
+            " <b>Bampi <s>{}</s> -> {}</b>\n\n{}"
         ),
         "more": "\n<i><b>🎥 Und {} mehr...</b></i>",
         "_cfg_doc_disable_notifications": "Deaktiviere Update Benachrichtigungen",
@@ -78,8 +78,8 @@ class UpdateNotifierMod(loader.Module):
 
     strings_uz = {
         "update_required": (
-            "🌘 <b>Hikka yangilash mavjud!</b>\n\nYangi Hikka versiyasi chiqdi.\n🔮"
-            " <b>Hikka <s>{}</s> -> {}</b>\n\n{}"
+            "🌘 <b>Bampi yangilash mavjud!</b>\n\nYangi Bampi versiyasi chiqdi.\n🔮"
+            " <b>Bampi <s>{}</s> -> {}</b>\n\n{}"
         ),
         "more": "\n<i><b>🎥 Va {} boshqa...</b></i>",
         "_cfg_doc_disable_notifications": "Yangilash xabarlarini o'chirish",
@@ -90,8 +90,8 @@ class UpdateNotifierMod(loader.Module):
 
     strings_tr = {
         "update_required": (
-            "🌘 <b>Hikka güncellemesi mevcut!</b>\n\nYeni bir Hikka sürümü"
-            " yayınlandı.\n🔮 <b>Hikka <s>{}</s> -> {}</b>\n\n{}"
+            "🌘 <b>Bampi güncellemesi mevcut!</b>\n\nYeni bir Bampi sürümü"
+            " yayınlandı.\n🔮 <b>Bampi <s>{}</s> -> {}</b>\n\n{}"
         ),
         "more": "\n<i><b>🎥 Ve {} daha fazlası...</b></i>",
         "_cfg_doc_disable_notifications": "Güncelleme bildirimlerini devre dışı bırak",
@@ -102,7 +102,7 @@ class UpdateNotifierMod(loader.Module):
 
     strings_ja = {
         "update_required": (
-            "🌘 <b>Hikkaの更新があります！</b>\n新しいHikkaバージョンがリリースされました。\n🔮 <b>Hikka <s>{}</s> ->"
+            "🌘 <b>Bampiの更新があります！</b>\n新しいBampiバージョンがリリースされました。\n🔮 <b>Bampi <s>{}</s> ->"
             " {}</b>\n{}"
         ),
         "more": "\n<i><b>🎥 そして{}も...</b></i>",
@@ -114,7 +114,7 @@ class UpdateNotifierMod(loader.Module):
 
     strings_kr = {
         "update_required": (
-            "🌘 <b>Hikka 업데이트가 있습니다!</b>\n새로운 Hikka 버전이 출시되었습니다.\n🔮 <b>Hikka <s>{}</s>"
+            "🌘 <b>Bampi 업데이트가 있습니다!</b>\n새로운 Bampi 버전이 출시되었습니다.\n🔮 <b>Bampi <s>{}</s>"
             " -> {}</b>\n{}"
         ),
         "more": "\n<i><b>🎥 그리고 {} 더...</b></i>",
@@ -126,8 +126,8 @@ class UpdateNotifierMod(loader.Module):
 
     strings_ar = {
         "update_required": (
-            "🌘 <b>يوجد تحديث لـ Hikka!</b>\n\nتم إصدار إصدار جديد من Hikka.\n🔮"
-            " <b>Hikka <s>{}</s> -> {}</b>\n\n{}"
+            "🌘 <b>يوجد تحديث لـ Bampi!</b>\n\nتم إصدار إصدار جديد من Bampi.\n🔮"
+            " <b>Bampi <s>{}</s> -> {}</b>\n\n{}"
         ),
         "more": "\n<i><b>🎥 و {} أكثر...</b></i>",
         "_cfg_doc_disable_notifications": "تعطيل إشعارات التحديث",
@@ -138,8 +138,8 @@ class UpdateNotifierMod(loader.Module):
 
     strings_es = {
         "update_required": (
-            "🌘 <b>¡Actualización de Hikka disponible!</b>\n\nSe ha publicado una nueva"
-            " versión de Hikka.\n🔮 <b>Hikka <s>{}</s> -> {}</b>\n\n{}"
+            "🌘 <b>¡Actualización de Bampi disponible!</b>\n\nSe ha publicado una nueva"
+            " versión de Bampi.\n🔮 <b>Bampi <s>{}</s> -> {}</b>\n\n{}"
         ),
         "more": "\n<i><b>🎥 Y {} más...</b></i>",
         "_cfg_doc_disable_notifications": "Desactivar notificaciones de actualización",
@@ -200,8 +200,8 @@ class UpdateNotifierMod(loader.Module):
 
         self._markup = lambda: self.inline.generate_markup(
             [
-                {"text": self.strings("update"), "data": "hikka_update"},
-                {"text": self.strings("ignore"), "data": "hikka_upd_ignore"},
+                {"text": self.strings("update"), "data": "Bampi_update"},
+                {"text": self.strings("ignore"), "data": "Bampi_upd_ignore"},
             ]
         )
 
@@ -226,7 +226,7 @@ class UpdateNotifierMod(loader.Module):
                 self.tg_id,
                 self.strings("update_required").format(
                     utils.get_git_hash()[:6],
-                    '<a href="https://github.com/hikariatama/Hikka/compare/{}...{}">{}</a>'
+                    '<a href="https://github.com/hikariatama/Bampi/compare/{}...{}">{}</a>'
                     .format(
                         utils.get_git_hash()[:12],
                         self.get_latest()[:12],
@@ -256,10 +256,10 @@ class UpdateNotifierMod(loader.Module):
     @loader.callback_handler()
     async def update(self, call: InlineCall):
         """Process update buttons clicks"""
-        if call.data not in {"hikka_update", "hikka_upd_ignore"}:
+        if call.data not in {"Bampi_update", "Bampi_upd_ignore"}:
             return
 
-        if call.data == "hikka_upd_ignore":
+        if call.data == "Bampi_upd_ignore":
             self.set("ignore_permanent", self.get_latest())
             await call.answer(self.strings("latest_disabled"))
             return

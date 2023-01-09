@@ -102,8 +102,8 @@ class Database(dict):
         try:
             self._assets, _ = await utils.asset_channel(
                 self._client,
-                "hikka-assets",
-                "🌆 Your Hikka assets will be stored here",
+                "Bampi-assets",
+                "🌆 Your Bampi assets will be stored here",
                 archive=True,
                 avatar="https://www.goha.ru/s/f/N2/EV/bmEuphiPTm.jpg",
             )

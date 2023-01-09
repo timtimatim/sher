@@ -4,7 +4,7 @@ import os
 
 
 def restart():
-    if "HIKKA_DO_NOT_RESTART" in os.environ:
+    if "Bampi_DO_NOT_RESTART" in os.environ:
         print("Got in a loop, exiting")
         sys.exit(0)
 
@@ -26,6 +26,6 @@ def restart():
         )
     )
 
-    os.environ["HIKKA_DO_NOT_RESTART"] = "1"
+    os.environ["Bampi_DO_NOT_RESTART"] = "1"
 
     sys.exit(0)

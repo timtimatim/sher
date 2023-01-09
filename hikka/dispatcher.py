@@ -77,11 +77,11 @@ class CommandDispatcher:
         self.security = security.SecurityManager(client, db)
 
         self.check_security = self.security.check
-        self._me = self._client.hikka_me.id
+        self._me = self._client.Bampi_me.id
         self._cached_username = (
-            self._client.hikka_me.username.lower()
-            if self._client.hikka_me.username
-            else str(self._client.hikka_me.id)
+            self._client.Bampi_me.username.lower()
+            if self._client.Bampi_me.username
+            else str(self._client.Bampi_me.id)
         )
 
         self.raw_handlers = []
@@ -214,7 +214,7 @@ class CommandDispatcher:
         message.edit = my_edit
         message.reply = my_reply
         message.respond = my_respond
-        message.hikka_grepped = True
+        message.Bampi_grepped = True
 
         return message
 
@@ -322,8 +322,8 @@ class CommandDispatcher:
         if (
             message.is_channel
             and message.is_group
-            and message.chat.title.startswith("hikka-")
-            and message.chat.title != "hikka-logs"
+            and message.chat.title.startswith("Bampi-")
+            and message.chat.title != "Bampi-logs"
         ):
             if not watcher:
                 logger.warning("Ignoring message in datachat \\ logging chat")
@@ -613,7 +613,7 @@ class CommandDispatcher:
     ):
         # Will be used to determine, which client caused logging messages
         # parsed via inspect.stack()
-        _hikka_client_id_logging_tag = copy.copy(self.client.tg_id)  # skipcq
+        _Bampi_client_id_logging_tag = copy.copy(self.client.tg_id)  # skipcq
         try:
             await func(message)
         except BaseException as e:

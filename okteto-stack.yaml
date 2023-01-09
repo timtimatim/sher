@@ -1,4 +1,4 @@
-name: hikka
+name: Bampi
 services:
   worker:
     public: true

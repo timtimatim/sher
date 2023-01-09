@@ -28,7 +28,7 @@ class InlineStuffMod(loader.Module):
             "<emoji document_id=6318792204118656433>🎉</emoji> <b>Config successfully"
             " saved. Restart userbot to apply changes</b>"
         ),
-        "this_is_hikka": (
+        "this_is_Bampi": (
             "🌘 <b>Hi! This is Bampi — powerful modular Telegram userbot. You can"
             " install it to your account!</b>\n\n<b>🌍 <a"
              ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👾 <a'
@@ -50,7 +50,7 @@ class InlineStuffMod(loader.Module):
             "<emoji document_id=6318792204118656433>🎉</emoji> <b>Настройки сохранены."
             " Для их применения нужно перезагрузить юзербот</b>"
         ),
-        "this_is_hikka": (
+        "this_is_Bampi": (
             "🌘 <b>Привет! Это Bampi — мощный модульный Telegram юзербот. Вы можете"
             " установить его на свой аккаунт!</b>\n\n<b>🌍 <a"
             ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👾 <a'
@@ -72,7 +72,7 @@ class InlineStuffMod(loader.Module):
             "<emoji document_id=6318792204118656433>🎉</emoji> <b>Налаштування збережені."
             " Для їх застосування необхідно перезавантажити юзербот</b>"
         ),
-        "this_is_hikka": (
+        "this_is_Bampi": (
             "🌘 <b>Вітаю! Це Bampi - потужний модульний Telegram юзербот. Ви можете"
             " встановити його на свій акаунт!</b>\n\n<b>🌍 <a"
             ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👾 <a'
@@ -94,11 +94,11 @@ class InlineStuffMod(loader.Module):
             "<emoji document_id=6318792204118656433>🎉</emoji> <b>Erfolgreich"
             " gespeichert. Starte den Userbot neu, um die Änderungen zu übernehmen</b>"
         ),
-        "this_is_hikka": (
+        "this_is_Bampi": (
             "🌘 <b>Hallo! Das ist Bampi — mächtiger modulare Telegram Userbot. Du kannst"
             " ihn auf deinen Account installieren!</b>\n\n<b>🌍 <a"
             ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👥 <a'
-            ' href="https://t.me/hikka_talks">Support Chat</a></b>'
+            ' href="https://t.me/Bampi_talks">Support Chat</a></b>'
         ),
     }
 
@@ -116,11 +116,11 @@ class InlineStuffMod(loader.Module):
             "<emoji document_id=6318792204118656433>🎉</emoji> <b>Yapılandırma başarıyla"
             " kaydedildi. Değişiklikleri uygulamak için botu yeniden başlatın</b>"
         ),
-        "this_is_hikka": (
-            "🌘 <b>Merhaba! Bu Hikka — güçlü modüler Telegram kullanıcı botu. Hesabınıza"
+        "this_is_Bampi": (
+            "🌘 <b>Merhaba! Bu Bampi — güçlü modüler Telegram kullanıcı botu. Hesabınıza"
             " kurup, kullanabilirsiniz!</b>\n\n<b>🌍 <a"
             ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👥 <a'
-            ' href="https://t.me/hikka_talks">Destek sohbeti</a></b>'
+            ' href="https://t.me/Bampi_talks">Destek sohbeti</a></b>'
         ),
     }
 
@@ -138,11 +138,11 @@ class InlineStuffMod(loader.Module):
             "<emoji document_id=6318792204118656433>🎉</emoji> <b>कॉन्फ़िगरेशन"
             " सफलतापूर्वक सहेजा गया। इसे लागू करने के लिए बॉट को रीस्टार्ट करें</b>"
         ),
-        "this_is_hikka": (
-            "🌘 <b>नमस्ते! यह Hikka है — एक मजबूत और मॉड्यूलर टेलीग्राम यूजरबॉट। आप इसे"
+        "this_is_Bampi": (
+            "🌘 <b>नमस्ते! यह Bampi है — एक मजबूत और मॉड्यूलर टेलीग्राम यूजरबॉट। आप इसे"
             " अपने अकाउंट पर इंस्टॉल कर सकते हैं!</b>\n\n<b>🌍 <a"
             ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👥 <a'
-            ' href="https://t.me/hikka_talks">सपोर्ट चैट</a></b>'
+            ' href="https://t.me/Bampi_talks">सपोर्ट चैट</a></b>'
         ),
     }
 
@@ -161,11 +161,11 @@ class InlineStuffMod(loader.Module):
             " muvaffaqiyatli saqlandi. Ushbu o'zgarishlarni qo'llash uchun botni qayta"
             " ishga tushiring</b>"
         ),
-        "this_is_hikka": (
-            "🌘 <b>Salom! Bu Hikka - kuchli modulli Telegram userboti. Siz uni"
+        "this_is_Bampi": (
+            "🌘 <b>Salom! Bu Bampi - kuchli modulli Telegram userboti. Siz uni"
             " o'zingizni akkauntingizga o'rnatishingiz mumkin!</b>\n\n<b>🌍 <a"
             ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👥 <a'
-            ' href="https://t.me/hikka_talks">Yordam chati</a></b>'
+            ' href="https://t.me/Bampi_talks">Yordam chati</a></b>'
         ),
     }
 
@@ -182,11 +182,11 @@ class InlineStuffMod(loader.Module):
             "<emoji document_id=6318792204118656433>🎉</emoji> <b>設定が正常に保存されました。"
             "変更を適用するには、ボットを再起動してください</b>"
         ),
-        "this_is_hikka": (
-            "🌘 <b>こんにちは！これはHikkaです — 力強いモジュール式のTelegramユーザーボットです。"
+        "this_is_Bampi": (
+            "🌘 <b>こんにちは！これはBampiです — 力強いモジュール式のTelegramユーザーボットです。"
             "あなたはそれをあなたのアカウントにインストールすることができます！</b>\n\n<b>🌍 <a"
             ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👥 <a'
-            ' href="https://t.me/hikka_talks">サポートチャット</a></b>'
+            ' href="https://t.me/Bampi_talks">サポートチャット</a></b>'
         ),
     }
 
@@ -203,11 +203,11 @@ class InlineStuffMod(loader.Module):
             "<emoji document_id=6318792204118656433>🎉</emoji> <b>설정이 성공적으로"
             " 저장되었습니다. 이러한 변경 사항을 적용하려면 봇을 다시 시작하십시오</b>"
         ),
-        "this_is_hikka": (
-            "🌘 <b>안녕하세요! 이것은 Hikka입니다 — 강력하고 모듈식인 Telegram 사용자 봇입니다."
+        "this_is_Bampi": (
+            "🌘 <b>안녕하세요! 이것은 Bampi입니다 — 강력하고 모듈식인 Telegram 사용자 봇입니다."
             "당신은 그것을 당신의 계정에 설치할 수 있습니다!</b>\n\n<b>🌍 <a"
             ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👥 <a'
-            ' href="https://t.me/hikka_talks">지원 채팅</a></b>'
+            ' href="https://t.me/Bampi_talks">지원 채팅</a></b>'
         ),
     }
 
@@ -225,11 +225,11 @@ class InlineStuffMod(loader.Module):
             "<emoji document_id=6318792204118656433>🎉</emoji> <b>تم حفظ الإعدادات"
             " بنجاح. يرجى إعادة تشغيل البوت لتطبيق التغييرات</b>"
         ),
-        "this_is_hikka": (
-            "🌘 <b>مرحبًا! هذا هو Hikka - مستخدم بوت تيليغرام قوي وموديولي. يمكنك تثبيته"
+        "this_is_Bampi": (
+            "🌘 <b>مرحبًا! هذا هو Bampi - مستخدم بوت تيليغرام قوي وموديولي. يمكنك تثبيته"
             " على حسابك!</b>\n\n<b>🌍 <a"
             ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👥 <a'
-            ' href="https://t.me/hikka_talks">دردشة الدعم</a></b>'
+            ' href="https://t.me/Bampi_talks">دردشة الدعم</a></b>'
         ),
     }
 
@@ -247,11 +247,11 @@ class InlineStuffMod(loader.Module):
             "<emoji document_id=6318792204118656433>🎉</emoji> <b>La configuración se"
             " guardó correctamente. Reinicie el bot para aplicar los cambios</b>"
         ),
-        "this_is_hikka": (
-            "🌘 <b>¡Hola! Este es Hikka - un poderoso bot de usuario modular de"
+        "this_is_Bampi": (
+            "🌘 <b>¡Hola! Este es Bampi - un poderoso bot de usuario modular de"
             " Telegram. ¡Puedes instalarlo en tu cuenta!</b>\n\n<b>🌍 <a"
             ' href="https://github.com/timtimatim/Bampi">GitHub</a></b>\n<b>👥 <a'
-            ' href="https://t.me/hikka_talks">Chat de soporte</a></b>'
+            ' href="https://t.me/Bampi_talks">Chat de soporte</a></b>'
         ),
     }
 
@@ -356,8 +356,8 @@ class InlineStuffMod(loader.Module):
                 await utils.answer(message, self.strings("bot_username_occupied"))
                 return
 
-        self._db.set("hikka.inline", "custom_bot", args)
-        self._db.set("hikka.inline", "bot_token", None)
+        self._db.set("Bampi.inline", "custom_bot", args)
+        self._db.set("Bampi.inline", "bot_token", None)
         await utils.answer(message, self.strings("bot_updated"))
 
     async def aiogram_watcher(self, message: BotInlineMessage):
@@ -366,7 +366,7 @@ class InlineStuffMod(loader.Module):
 
         await message.answer_photo(
             "https://img.rl0.ru/afisha/e630x315p0x0f1260x720q85i/s2.afisha.ru/mediastorage/89/90/9a6f49ac22c042c6b13b44f99089.jpeg",
-            caption=self.strings("this_is_hikka"),
+            caption=self.strings("this_is_Bampi"),
         )
 
     async def client_ready(self):

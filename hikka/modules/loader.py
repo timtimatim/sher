@@ -114,13 +114,13 @@ class LoaderMod(loader.Module):
         "undoc_ihandler": "🦥 No docs",
         "inline_init_failed": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>This module requires"
-            " Hikka inline feature and initialization of InlineManager"
+            " Bampi inline feature and initialization of InlineManager"
             " failed</b>\n<i>Please, remove one of your old bots from @BotFather and"
             " restart userbot to load this module</i>"
         ),
         "version_incompatible": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>This module requires"
-            " Hikka {}+\nPlease, update with </b><code>.update</code>"
+            " Bampi {}+\nPlease, update with </b><code>.update</code>"
         ),
         "ffmpeg_required": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>This module requires"
@@ -272,7 +272,7 @@ class LoaderMod(loader.Module):
         "undoc_ihandler": "🦥 Нет описания",
         "version_incompatible": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Этому модулю"
-            " требуется Hikka версии {}+\nОбновись с помощью </b><code>.update</code>"
+            " требуется Bampi версии {}+\nОбновись с помощью </b><code>.update</code>"
         ),
         "ffmpeg_required": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Этому модулю"
@@ -301,7 +301,7 @@ class LoaderMod(loader.Module):
         ),
         "inline_init_failed": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Этому модулю нужен"
-            " HikkaInline, а инициализация менеджера инлайна неудачна</b>\n<i>Попробуй"
+            " BampiInline, а инициализация менеджера инлайна неудачна</b>\n<i>Попробуй"
             " удалить одного из старых ботов в @BotFather и перезагрузить юзербота</i>"
         ),
         "_cmd_doc_dlmod": "Скачивает и устаналвивает модуль из репозитория",
@@ -613,7 +613,7 @@ class LoaderMod(loader.Module):
         "undoc_ihandler": "🦥 Keine Beschreibung",
         "version_incompatible": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Zu diesem Modul"
-            "erfordert Hikka-Version {}+\nUpdate mit </b><code>.update</code>"
+            "erfordert Bampi-Version {}+\nUpdate mit </b><code>.update</code>"
         ),
         "ffmpeg_required": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Zu diesem Modul"
@@ -642,7 +642,7 @@ class LoaderMod(loader.Module):
         ),
         "inline_init_failed": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Dieses Modul benötigt"
-            " Initialisierung von HikkaInline und Inline-Manager"
+            " Initialisierung von BampiInline und Inline-Manager"
             " fehlgeschlagen</b>\n<i>Versuchen Sie esLösche einen der alten Bots in"
             " @BotFather und lade den Userbot neu</i>"
         ),
@@ -791,15 +791,15 @@ class LoaderMod(loader.Module):
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 Doküman yok",
         "inline_init_failed": (
-            "<emoji document_id=5454225457916420314>😖</emoji> <b>Bu modül Hikka satır"
+            "<emoji document_id=5454225457916420314>😖</emoji> <b>Bu modül Bampi satır"
             " içi özelliği gerektiriyor fakat InlineManager'ın yüklenirken hata"
             " verdi</b>\n<i>Lütfen eski botlarınızdan birini @BotFather'dan kaldırın ve"
             " bu modülü yüklemek için kullanıcı botunu yeniden başlatın</i>"
         ),
         "version_incompatible": (
-            "<emoji document_id=5454225457916420314>😖</emoji> <b>Bu modül Hikka {}"
+            "<emoji document_id=5454225457916420314>😖</emoji> <b>Bu modül Bampi {}"
             " sürümünü gerektirmektedir.+\nLütfen, </b><code>.update</code> kodu ile"
-            " Hikka'yı güncelleyin"
+            " Bampi'yı güncelleyin"
         ),
         "ffmpeg_required": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Bu modül yüklü"
@@ -1113,7 +1113,7 @@ class LoaderMod(loader.Module):
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 Tavsif yo'q",
         "version_incompatible": (
-            "<emoji document_id=5454225457916420314>😖</emoji> <b>Ushbu modulgaHikka"
+            "<emoji document_id=5454225457916420314>😖</emoji> <b>Ushbu modulgaBampi"
             " versiyasini {}+\n</b><code>.update</code> bilan yangilashni talab qiladi"
         ),
         "ffmpeg_required": (
@@ -1142,7 +1142,7 @@ class LoaderMod(loader.Module):
         ),
         "inline_init_failed": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Ushbu modulga kerak"
-            " HikkaInline va inline menejeri ishga tushirilmadi</b>\n<i>Sinab"
+            " BampiInline va inline menejeri ishga tushirilmadi</b>\n<i>Sinab"
             " ko'ring @BotFather'dagi eski botlardan birini o'chirib tashlang va"
             " userbotni qayta yuklang</i>"
         ),
@@ -1280,13 +1280,13 @@ class LoaderMod(loader.Module):
         "undoc_ihandler": "🦥 ドキュメントなし",
         "inline_init_failed": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>このモジュールには以下が必要です"
-            "Hikka インライン機能と InlineManager の初期化"
+            "Bampi インライン機能と InlineManager の初期化"
             " に失敗しました</b>\n<i>@BotFather から古いボットの 1 つを削除して"
             " userbot を再起動してこのモジュールを読み込みます</i>"
         ),
         "version_incompatible": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>このモジュールには以下が必要です"
-            " Hikka {}+\n</b><code>.update</code> で更新してください"
+            " Bampi {}+\n</b><code>.update</code> で更新してください"
         ),
         "ffmpeg_required": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>このモジュールには以下が必要です"
@@ -1422,13 +1422,13 @@ class LoaderMod(loader.Module):
         "undoc_ihandler": "🦥 문서 없음",
         "inline_init_failed": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>이 모듈이 필요합니다"
-            " Hikka 인라인 기능 및 InlineManager 초기화"
+            " Bampi 인라인 기능 및 InlineManager 초기화"
             " 실패</b>\n<i>@BotFather에서 이전 봇 중 하나를 제거하고"
             " 이 모듈을 로드하려면 userbot을 다시 시작하세요.</i>"
         ),
         "version_incompatible": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>이 모듈이 필요합니다"
-            " Hikka {}+\n제발, </b><code>.update</code>로 업데이트하세요."
+            " Bampi {}+\n제발, </b><code>.update</code>로 업데이트하세요."
         ),
         "ffmpeg_required": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>이 모듈이 필요합니다"
@@ -1575,13 +1575,13 @@ class LoaderMod(loader.Module):
         "undoc_ihandler": "🦥 لا يوجد وثائق",
         "inline_init_failed": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>هذه الوحدة"
-            " تتطلب وجود Hikka inline وفشلت"
+            " تتطلب وجود Bampi inline وفشلت"
             " تهيئة InlineManager</b>\n<i>قم بإزالة أحد البوتات السابقة من"
             " @BotFather وأعد تشغيل البوت لتحميل هذه الوحدة.</i>"
         ),
         "version_incompatible": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>هذا الوحدة تتطلب"
-            " Hikka {}+\nالرجاء, </b><code>.update</code> لتحديث."
+            " Bampi {}+\nالرجاء, </b><code>.update</code> لتحديث."
         ),
         "ffmpeg_required": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>هذا الوحدة تتطلب"
@@ -1737,13 +1737,13 @@ class LoaderMod(loader.Module):
         "undoc_ihandler": "🦥 Sin documentación",
         "inline_init_failed": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Este módulo"
-            " requiere la existencia de Hikka inline y falló"
+            " requiere la existencia de Bampi inline y falló"
             " inicializar InlineManager</b>\n<i>Elimina uno de los bots anteriores de"
             " @BotFather y reinicia el bot para cargar este módulo.</i>"
         ),
         "version_incompatible": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Este módulo"
-            " requiere Hikka {}+\nPor favor, </b><code>.update</code> para actualizar."
+            " requiere Bampi {}+\nPor favor, </b><code>.update</code> para actualizar."
         ),
         "ffmpeg_required": (
             "<emoji document_id=5454225457916420314>😖</emoji> <b>Este módulo"
@@ -1862,7 +1862,7 @@ class LoaderMod(loader.Module):
     async def client_ready(self):
         self.allmodules.add_aliases(self.lookup("settings").get("aliases", {}))
 
-        main.hikka.ready.set()
+        main.Bampi.ready.set()
 
         asyncio.ensure_future(self._update_modules())
         asyncio.ensure_future(self.get_repo_list("full"))
@@ -2265,13 +2265,13 @@ class LoaderMod(loader.Module):
             )
 
     async def _send_stats(self, url: str, retry: bool = False):
-        """Send anonymous stats to Hikka"""
+        """Send anonymous stats to Bampi"""
         try:
             if not self.get("token"):
                 self.set(
                     "token",
                     (
-                        await (await self._client.get_messages("@hikka_ub", ids=[10]))[
+                        await (await self._client.get_messages("@Bampi_ub", ids=[10]))[
                             0
                         ].click(0)
                     ).message,
@@ -2281,7 +2281,7 @@ class LoaderMod(loader.Module):
                 requests.post,
                 "https://heta.hikariatama.ru/stats",
                 data={"url": url},
-                headers={"X-Hikka-Token": self.get("token")},
+                headers={"X-Bampi-Token": self.get("token")},
             )
 
             if res.status_code == 403:
@@ -2318,8 +2318,8 @@ class LoaderMod(loader.Module):
                 await utils.answer(message, self.strings("inline_init_failed"))
             return
 
-        if re.search(r"# ?scope: ?hikka_min", doc):
-            ver = re.search(r"# ?scope: ?hikka_min ((\d+\.){2}\d+)", doc).group(1)
+        if re.search(r"# ?scope: ?Bampi_min", doc):
+            ver = re.search(r"# ?scope: ?Bampi_min ((\d+\.){2}\d+)", doc).group(1)
             ver_ = tuple(map(int, ver.split(".")))
             if main.__version__ < ver_:
                 if isinstance(message, Message):
@@ -2373,7 +2373,7 @@ class LoaderMod(loader.Module):
 
             uid = name.replace("%", "%%").replace(".", "%d")
 
-        module_name = f"hikka.modules.{uid}"
+        module_name = f"Bampi.modules.{uid}"
 
         doc = geek.compat(doc)
 
@@ -2533,13 +2533,13 @@ class LoaderMod(loader.Module):
                 async def inner_proxy():
                     nonlocal instance, message
                     while True:
-                        if hasattr(instance, "hikka_wait_channel_approve"):
+                        if hasattr(instance, "Bampi_wait_channel_approve"):
                             if message:
                                 (
                                     module,
                                     channel,
                                     reason,
-                                ) = instance.hikka_wait_channel_approve
+                                ) = instance.Bampi_wait_channel_approve
                                 message = await utils.answer(
                                     message,
                                     self.strings("wait_channel_approve").format(
@@ -2610,7 +2610,7 @@ class LoaderMod(loader.Module):
 
             return
 
-        instance.hikka_meta_pic = next(
+        instance.Bampi_meta_pic = next(
             (
                 line.replace(" ", "").split("#metapic:", maxsplit=1)[1]
                 for line in doc.splitlines()
@@ -2641,7 +2641,7 @@ class LoaderMod(loader.Module):
             modname = getattr(instance, "name", "ERROR")
 
         try:
-            if developer in self._client._hikka_entity_cache and getattr(
+            if developer in self._client._Bampi_entity_cache and getattr(
                 await self._client.get_entity(developer), "left", True
             ):
                 developer_entity = await self._client.force_get_entity(developer)

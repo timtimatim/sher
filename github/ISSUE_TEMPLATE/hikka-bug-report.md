@@ -1,12 +1,12 @@
 ---
-name: Hikka bug report
-about: Report a bug related to Hikka userbot itself
+name: Bampi bug report
+about: Report a bug related to Bampi userbot itself
 title: ''
-labels: bug, Hikka
+labels: bug, Bampi
 assignees: ''
 
 ---
-- [x] This bug **is related to Hikka userbot itself**. It **is not related to modules**.
+- [x] This bug **is related to Bampi userbot itself**. It **is not related to modules**.
 ---
 **Describe the bug**
 A clear and concise description of what the bug is.
@@ -32,7 +32,7 @@ If applicable, add screenshots to help explain your problem.
 - [ ] 🐳 Docker
 - [ ] 🌺 Other platform
 
-- Hikka version: 
+- Bampi version: 
 
 **Additional context**
 Add any other context about the problem here.

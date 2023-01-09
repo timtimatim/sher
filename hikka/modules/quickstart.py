@@ -33,7 +33,7 @@ class QuickstartMod(loader.Module):
 4️⃣ <b>Type </b><code>.loadmod</code> <b>with reply to file to install module from it</b>
 5️⃣ <b>Type </b><code>.unloadmod &lt;ModuleName&gt;</code> <b>to unload module ModuleName</b>
 
-💡 <b>Hikka supports modules from Friendly-Telegram and GeekTG, as well as its own ones.</b>""",
+💡 <b>Bampi supports modules from Friendly-Telegram and GeekTG, as well as its own ones.</b>""",
         "okteto": (
             "☁️ <b>Your userbot is installed on Okteto</b>. You will get notifications"
             " from @WebpageBot. Do not block him."
@@ -41,7 +41,7 @@ class QuickstartMod(loader.Module):
         "railway": (
             "🚂 <b>Your userbot is installed on Railway</b>. This platform has only"
             " <b>500 free hours per month</b>. Once this limit is reached, your"
-            " <b>Hikka will be frozen</b>. Next month <b>you will need to go to"
+            " <b>Bampi will be frozen</b>. Next month <b>you will need to go to"
             " https://railway.app and restart it</b>."
         ),
         "language_saved": "🇬🇧 Language saved!",
@@ -64,7 +64,7 @@ class QuickstartMod(loader.Module):
 4️⃣ <b>Напиши </b><code>.loadmod</code> <b>ответом на файл, чтобы загрузить модуль из него</b>
 5️⃣ <b>Напиши </b><code>.unloadmod &lt;Название модуля&gt;</code> <b>чтобы выгрузить модуль</b>
 
-💡 <b>Bampi поддерживает модули из Friendly-Telegram, GeekTG, Hikka, а также свои собственные.</b>
+💡 <b>Bampi поддерживает модули из Friendly-Telegram, GeekTG, Bampi, а также свои собственные.</b>
 """,
         "okteto": (
             "☁️ <b>Твой юзербот установлен на Okteto</b>. Ты будешь получать"
@@ -91,7 +91,7 @@ class QuickstartMod(loader.Module):
 3️⃣ <b>Напиши </b><code>.dlmod &lt;ссылка&gt;</code> <b>чтобы загрузить модуль из ссылка</b>
 4️⃣ <b>Напиши </b><code>.loadmod</code> <b>ответом на файл, чтобы загрузить модуль из него</b>
 5️⃣ <b>Напиши </b><code>.unloadmod &lt;Название модуля&gt;</code> <b>чтобы выгрузить модуль</b>
-💡 <b>Bampi поддерживает модули из Friendly-Telegram, GeekTG, Hikka, а также свои собственные.</b>
+💡 <b>Bampi поддерживает модули из Friendly-Telegram, GeekTG, Bampi, а также свои собственные.</b>
 """,
         "okteto": (
             "☁️ <b>Твой юзербот установлен на Okteto</b>. Ты будешь получать"
@@ -109,13 +109,13 @@ class QuickstartMod(loader.Module):
     }
 
     strings_de = {
-        "base": """🌘🇩🇪 <b>Hallo.</b> Dein Userbot <b>Hikka</b> ist installiert.
+        "base": """🌘🇩🇪 <b>Hallo.</b> Dein Userbot <b>Bampi</b> ist installiert.
 
 ❓ <b>Brauchst du Hilfe?</b> Trete unserem Support-Chat bei. Wir helfen <b>allen</b>.
 
-📼 <b>Du kannst Module über @hikkamods_bot suchen und installieren. Gib einfach einen Suchbegriff ein und drücke auf ⛩ Install auf dem gewünschten Modul</b>
+📼 <b>Du kannst Module über @Bampimods_bot suchen und installieren. Gib einfach einen Suchbegriff ein und drücke auf ⛩ Install auf dem gewünschten Modul</b>
 
-📣 <b>Schaue dir die Module-Kanäle an, die von der Community erstellt wurden: <a href="https://t.me/hikka_ub/126">anzeigen</a></b>
+📣 <b>Schaue dir die Module-Kanäle an, die von der Community erstellt wurden: <a href="https://t.me/Bampi_ub/126">anzeigen</a></b>
 
 💁‍♀️ <b>Schnellstart:</b>
 
@@ -125,7 +125,7 @@ class QuickstartMod(loader.Module):
 4️⃣ <b>Schreibe </b><code>.loadmod</code> <b>als Antwort auf eine Datei, um ein Modul aus der Datei zu laden</b>
 5️⃣ <b>Schreibe </b><code>.unloadmod &lt;Modulname&gt;</code> <b>um ein Modul zu entladen</b>
 
-💡 <b>Hikka unterstützt Module von Friendly-Telegram und GeekTG sowie eigene Module.</b>
+💡 <b>Bampi unterstützt Module von Friendly-Telegram und GeekTG sowie eigene Module.</b>
 """,
         "okteto": (
             "☁️ <b>Dein Userbot ist auf Okteto installiert</b>. Du wirst"
@@ -143,13 +143,13 @@ class QuickstartMod(loader.Module):
     }
 
     strings_uz = {
-        "base": """🌘🇺🇿 <b>Salom.</b> <b>Hikka</b> Sizning yuzer botingiz sozlandi.
+        "base": """🌘🇺🇿 <b>Salom.</b> <b>Bampi</b> Sizning yuzer botingiz sozlandi.
 
 ❓ <b>Yordam kerakmi?</b> Siz bizning qollab quvvatlash guruhimizga qo'shilishingiz mumkin. guruhimzda  <b>barcha savollaringizga javob olasiz</b>.
 
-📼 <b>Modullar @hikkamods_bot ushbu botimiz orqali siz har qanday yuzerbotga tegishli bo'lgan modullarni o'rnatishingiz mumkun botga kalit so'zni yuboring va  ⛩ O'rnatish tugmasini bosing</b>
+📼 <b>Modullar @Bampimods_bot ushbu botimiz orqali siz har qanday yuzerbotga tegishli bo'lgan modullarni o'rnatishingiz mumkun botga kalit so'zni yuboring va  ⛩ O'rnatish tugmasini bosing</b>
 
-📣 <b>Homiylar tomonidan yaratilgan modullar kanalini ko'rish: <a href="https://t.me/hikka_ub/126">kanalni ko'rish</a></b>
+📣 <b>Homiylar tomonidan yaratilgan modullar kanalini ko'rish: <a href="https://t.me/Bampi_ub/126">kanalni ko'rish</a></b>
 
 💁‍♀️ <b>Tez ishga tushurish:</b>
 
@@ -159,7 +159,7 @@ class QuickstartMod(loader.Module):
 4️⃣ <b>Modulni fayl orqali yuklash uchun </b><code>.loadmod</code> <b>faylga javoban yozing</b>
 5️⃣ <b>Modulni olib tashlash uchun </b><code>.unloadmod &lt;Modul nomi&gt;</code> <b>yozing</b>
 
-💡 <b>Hikka Friendly-Telegram ve GeekTG O'z Modullarini qollab quvvatlaydi.</b>
+💡 <b>Bampi Friendly-Telegram ve GeekTG O'z Modullarini qollab quvvatlaydi.</b>
 """,
         "okteto": (
             "☁️ <b>Sizning yuzerbotingiz oktetoda o'rnatilgan</b>. @WebpageBot'dan"
@@ -178,13 +178,13 @@ class QuickstartMod(loader.Module):
     }
 
     strings_tr = {
-        "base": """🌘🇹🇷 <b>Merhaba.</b> <b>Hikka</b> kullanıcı botunuz kuruldu.
+        "base": """🌘🇹🇷 <b>Merhaba.</b> <b>Bampi</b> kullanıcı botunuz kuruldu.
 
 ❓ <b>Yardıma mı ihtiyacınız var?</b> Yardım grubumuza katılabilirsin. Herkese <b>yardım ediyoruz</b>.
 
-📼 <b>Modülleri @hikkamods_bot ile arayabilir ve kurabilirsiniz. Sadece anahtar kelimeleri girin ve istediğiniz modülün ⛩ Kur butonuna basın</b>
+📼 <b>Modülleri @Bampimods_bot ile arayabilir ve kurabilirsiniz. Sadece anahtar kelimeleri girin ve istediğiniz modülün ⛩ Kur butonuna basın</b>
 
-📣 <b>Topluluk tarafından oluşturulan modül kanalları görüntüleyin: <a href="https://t.me/hikka_ub/126">göster</a></b>
+📣 <b>Topluluk tarafından oluşturulan modül kanalları görüntüleyin: <a href="https://t.me/Bampi_ub/126">göster</a></b>
 
 💁‍♀️ <b>Hızlı başlangıç:</b>
 
@@ -194,7 +194,7 @@ class QuickstartMod(loader.Module):
 4️⃣ <b>Bir modülü bir dosyadan yüklemek için </b><code>.loadmod</code> <b>bir dosyanın yanıtını yazın</b>
 5️⃣ <b>Bir modülü kaldırmak için </b><code>.unloadmod &lt;Modul adı&gt;</code> <b>yazın</b>
 
-💡 <b>Hikka Friendly-Telegram ve GeekTG modüllerini de dahil olmak üzere kendi modüllerini destekler.</b>
+💡 <b>Bampi Friendly-Telegram ve GeekTG modüllerini de dahil olmak üzere kendi modüllerini destekler.</b>
 """,
         "okteto": (
             "☁️ <b>Kullanıcı botunuz Okteto'da kuruldu</b>. @WebpageBot'dan mesajlar"
@@ -212,13 +212,13 @@ class QuickstartMod(loader.Module):
     }
 
     strings_hi = {
-        "base": """🌘🇮🇳 <b>नमस्ते.</b> आपका <b>Hikka</b> उपयोगकर्ता बॉट स्थापित किया गया है.
+        "base": """🌘🇮🇳 <b>नमस्ते.</b> आपका <b>Bampi</b> उपयोगकर्ता बॉट स्थापित किया गया है.
 
 ❓ <b>क्या आपको मदद की आवश्यकता है?</b> हमारे साथ मदद ग्रुप में शामिल हों. हम सब कुछ साझा करेंगे.
 
-📼 <b>मॉड्यूल्स को @hikkamods_bot से खोजें और इंस्टॉल करें. केवल एक खोज शब्द दर्ज करें और आपके लिए उपलब्ध मॉड्यूल पर ⛩ इंस्टॉल बटन पर क्लिक करें</b>
+📼 <b>मॉड्यूल्स को @Bampimods_bot से खोजें और इंस्टॉल करें. केवल एक खोज शब्द दर्ज करें और आपके लिए उपलब्ध मॉड्यूल पर ⛩ इंस्टॉल बटन पर क्लिक करें</b>
 
-📣 <b>समुदाय द्वारा बनाए गए चैनल देखें: <a href="https://t.me/hikka_ub/126">दिखाएं</a></b>
+📣 <b>समुदाय द्वारा बनाए गए चैनल देखें: <a href="https://t.me/Bampi_ub/126">दिखाएं</a></b>
 
 💁‍♀️ <b>त्वरित शुरुआत:</b>
 
@@ -228,7 +228,7 @@ class QuickstartMod(loader.Module):
 4️⃣ <b>एक मॉड्यूल को फाइल से लोड करने के लिए </b><code>.loadmod</code> <b>एक फ़ाइल का उत्तर दर्ज करें</b>
 5️⃣ <b>एक मॉड्यूल को हटाने के लिए </b><code>.unloadmod &lt;मॉड्यूल नाम&gt;</code> <b>टाइप करें</b>
 
-💡 <b>अपने मॉड्यूल को समर्थित करने के लिए, Hikka Friendly-Telegram और GeekTG मॉड्यूल भी शामिल हैं.</b>
+💡 <b>अपने मॉड्यूल को समर्थित करने के लिए, Bampi Friendly-Telegram और GeekTG मॉड्यूल भी शामिल हैं.</b>
 """,
         "okteto": (
             "☁️ <b>आपका उपयोगकर्ता बॉट Okteto पर बनाया गया था</b>। @WebpageBot से संदेश"
@@ -247,9 +247,9 @@ class QuickstartMod(loader.Module):
 
     strings_ja = {
         "base": """
-📼 <b>モジュールを検索してインストールするには @hikkamods_bot から検索してください。検索ワードを1つ入力してください。</b>
+📼 <b>モジュールを検索してインストールするには @Bampimods_bot から検索してください。検索ワードを1つ入力してください。</b>
 
-📣 <b>コミュニティで作成されたチャンネルを見るには、こちらをクリックしてください: <a href="https://t.me/hikka_ub/126">表示</a></b>
+📣 <b>コミュニティで作成されたチャンネルを見るには、こちらをクリックしてください: <a href="https://t.me/Bampi_ub/126">表示</a></b>
 
 💁‍♀️ <b>すぐに始めるには:</b>
 
@@ -259,7 +259,7 @@ class QuickstartMod(loader.Module):
 4️⃣ <b>モジュールをファイルからロードするには </b><code>.loadmod</code> <b>ファイルの返信を入力します</b>
 5️⃣ <b>モジュールを削除するには </b><code>.unloadmod &lt;モジュール名&gt;</code> <b>を入力します</b>
 
-💡 <b>モジュールをサポートするには、Hikka Friendly-Telegram と GeekTG モジュールも含まれています。</b>
+💡 <b>モジュールをサポートするには、Bampi Friendly-Telegram と GeekTG モジュールも含まれています。</b>
 """,
         "okteto": (
             "☁️ <b>あなたのユーザーボットは Okteto で作成されました</b>。 @WebpageBot にメッセージを送信します。"
@@ -278,9 +278,9 @@ class QuickstartMod(loader.Module):
 
     strings_kr = {
         "base": """
-📼 <b>모듈을 검색하고 설치하려면 @hikkamods_bot 에서 검색하십시오. 검색어를 입력하십시오.</b>
+📼 <b>모듈을 검색하고 설치하려면 @Bampimods_bot 에서 검색하십시오. 검색어를 입력하십시오.</b>
 
-📣 <b>커뮤니티에서 생성된 채널을 보려면 여기를 클릭하십시오: <a href="https://t.me/hikka_ub/126">보기</a></b>
+📣 <b>커뮤니티에서 생성된 채널을 보려면 여기를 클릭하십시오: <a href="https://t.me/Bampi_ub/126">보기</a></b>
 
 💁‍♀️ <b>즉시 시작하려면:</b>
 
@@ -290,7 +290,7 @@ class QuickstartMod(loader.Module):
 4️⃣ <b>모듈을 파일에서로드하려면 </b><code>.loadmod</code> <b>파일에 응답을 입력하십시오</b>
 5️⃣ <b>모듈을 제거하려면 </b><code>.unloadmod &lt;모듈 이름&gt;</code> <b>를 입력하십시오</b>
 
-💡 <b>모듈을 지원하려면 Hikka Friendly-Telegram 및 GeekTG 모듈도 포함됩니다.</b>
+💡 <b>모듈을 지원하려면 Bampi Friendly-Telegram 및 GeekTG 모듈도 포함됩니다.</b>
 """,
         "okteto": (
             "☁️ <b>사용자 봇은 Okteto에서 만들어졌습니다</b> @WebpageBot 에 메시지를 보내십시오.차단하지 마십시오."
@@ -308,9 +308,9 @@ class QuickstartMod(loader.Module):
 
     strings_ar = {
         "base": """
-📼 <b>للبحث عن وتثبيت الوحدات، يرجى الذهاب إلى @hikkamods_bot وإدخال الكلمات المفتاحية.</b>
+📼 <b>للبحث عن وتثبيت الوحدات، يرجى الذهاب إلى @Bampimods_bot وإدخال الكلمات المفتاحية.</b>
 
-📣 <b>لمشاهدة قنوات المجتمع التي تم إنشاؤها، انقر هنا: <a href="https://t.me/hikka_ub/126">عرض</a></b>
+📣 <b>لمشاهدة قنوات المجتمع التي تم إنشاؤها، انقر هنا: <a href="https://t.me/Bampi_ub/126">عرض</a></b>
 
 💁‍♀️ <b>للبدء فورًا:</b>
 
@@ -320,7 +320,7 @@ class QuickstartMod(loader.Module):
 4️⃣ <b>لتحميل الوحدة من الملف، اكتب </b><code>.loadmod</code> <b>وأرسل الملف المراد تحميله</b>
 5️⃣ <b>لإزالة الوحدة، اكتب </b><code>.unloadmod &lt;اسم الوحدة&gt;</code> <b>وأدخل</b>
 
-💡 <b>لدعم الوحدات، يتضمن Hikka Friendly-Telegram و GeekTG أيضًا.</b>
+💡 <b>لدعم الوحدات، يتضمن Bampi Friendly-Telegram و GeekTG أيضًا.</b>
 """,
         "okteto": (
             "☁️ <b>تم إنشاء بوت المستخدم على Okteto</b> ارسل رسالة إلى @WebpageBot ولا"
@@ -339,9 +339,9 @@ class QuickstartMod(loader.Module):
 
     strings_es = {
         "base": """
-📼 <b>Para buscar e instalar módulos, vaya a @hikkamods_bot y escriba las palabras clave.</b>
+📼 <b>Para buscar e instalar módulos, vaya a @Bampimods_bot y escriba las palabras clave.</b>
 
-📣 <b>Para ver los canales de la comunidad creados, haga clic aquí: <a href="https://t.me/hikka_ub/126">Ver</a></b>
+📣 <b>Para ver los canales de la comunidad creados, haga clic aquí: <a href="https://t.me/Bampi_ub/126">Ver</a></b>
 
 💁‍♀️ <b>Para comenzar de inmediato:</b>
 
@@ -351,7 +351,7 @@ class QuickstartMod(loader.Module):
 4️⃣ <b>Para cargar el módulo desde el archivo, escriba </b><code>.loadmod</code> <b>y responda al archivo que desea cargar</b>
 5️⃣ <b>Para eliminar el módulo, escriba </b><code>.unloadmod &lt;nombre del módulo&gt;</code> <b>y presione</b>
 
-💡 <b>Para admitir módulos, también incluye Hikka Friendly-Telegram y GeekTG.</b>
+💡 <b>Para admitir módulos, también incluye Bampi Friendly-Telegram y GeekTG.</b>
 """,
         "okteto": (
             "☁️ <b>Se ha creado el bot de usuario en Okteto</b> envíe un mensaje a"

@@ -368,7 +368,7 @@ async def answer(
 ) -> typing.Union[InlineCall, InlineMessage, Message]:
     """
     Use this to give the response to a command
-    :param message: Message to answer to. Can be a tl message or hikka inline object
+    :param message: Message to answer to. Can be a tl message or Bampi inline object
     :param response: Response to send
     :param reply_markup: Reply markup to send. If specified, inline form will be used
     :return: Message or inline object
@@ -435,7 +435,7 @@ async def answer(
     if isinstance(response, str) and not kwargs.pop("asfile", False):
         text, entities = parse_mode.parse(response)
 
-        if len(text) >= 4096 and not hasattr(message, "hikka_grepped"):
+        if len(text) >= 4096 and not hasattr(message, "Bampi_grepped"):
             try:
                 if not message.client.loader.inline.init_complete:
                     raise
@@ -640,7 +640,7 @@ async def invite_inline_bot(
                 channel=peer,
                 user_id=client.loader.inline.bot_username,
                 admin_rights=ChatAdminRights(ban_users=True),
-                rank="Hikka",
+                rank="Bampi",
             )
         )
 
@@ -719,13 +719,13 @@ async def asset_channel(
         await client(SetHistoryTTLRequest(peer=peer, period=ttl))
 
     if _folder:
-        if _folder != "hikka":
+        if _folder != "Bampi":
             raise NotImplementedError
 
         folders = await client(GetDialogFiltersRequest())
 
         try:
-            folder = next(folder for folder in folders if folder.title == "hikka")
+            folder = next(folder for folder in folders if folder.title == "Bampi")
         except Exception:
             folder = None
 
@@ -867,7 +867,7 @@ def get_platform_emoji(client: typing.Optional[CustomTelegramClient] = None) -> 
     )
 
     if client and (
-        client.loader._db.get("hikka.translations", "lang", False) or ""
+        client.loader._db.get("Bampi.translations", "lang", False) or ""
     ).startswith("ar"):
         BASE = tuple(reversed(BASE))
 
@@ -1173,7 +1173,7 @@ def check_url(url: str) -> bool:
 
 def get_git_hash() -> typing.Union[str, bool]:
     """
-    Get current Hikka git hash
+    Get current Bampi git hash
     :return: Git commit hash
     """
     try:
@@ -1184,13 +1184,13 @@ def get_git_hash() -> typing.Union[str, bool]:
 
 def get_commit_url() -> str:
     """
-    Get current Hikka git commit url
+    Get current Bampi git commit url
     :return: Git commit url
     """
     try:
         hash_ = get_git_hash()
         return (
-            f'<a href="https://github.com/hikariatama/Hikka/commit/{hash_}">#{hash_[:7]}</a>'
+            f'<a href="https://github.com/hikariatama/Bampi/commit/{hash_}">#{hash_[:7]}</a>'
         )
     except Exception:
         return "Unknown"

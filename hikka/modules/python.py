@@ -19,7 +19,7 @@ from telethon.errors.rpcerrorlist import MessageIdInvalidError
 from telethon.tl.types import Message
 
 from .. import loader, main, utils
-from ..log import HikkaException
+from ..log import BampiException
 
 
 @loader.tds
@@ -214,7 +214,7 @@ class PythonMod(loader.Module):
                 **await self.getattrs(message),
             )
         except Exception:
-            item = HikkaException.from_exc_info(*sys.exc_info())
+            item = BampiException.from_exc_info(*sys.exc_info())
             exc = (
                 "\n<b>🪐 Full stack:</b>\n\n"
                 + "\n".join(item.full_stack.splitlines()[:-1])
@@ -222,11 +222,11 @@ class PythonMod(loader.Module):
                 + "🚫 "
                 + item.full_stack.splitlines()[-1]
             )
-            exc = exc.replace(str(self._client.hikka_me.phone), "📵")
+            exc = exc.replace(str(self._client.Bampi_me.phone), "📵")
 
-            if os.environ.get("hikka_session"):
+            if os.environ.get("Bampi_session"):
                 exc = exc.replace(
-                    os.environ.get("hikka_session"),
+                    os.environ.get("Bampi_session"),
                     "StringSession(**************************)",
                 )
 
@@ -251,14 +251,14 @@ class PythonMod(loader.Module):
             utils.escape_html(result),
         )
 
-        ret = ret.replace(str(self._client.hikka_me.phone), "📵")
+        ret = ret.replace(str(self._client.Bampi_me.phone), "📵")
 
         if redis := os.environ.get("REDIS_URL") or main.get_config_key("redis_uri"):
             ret = ret.replace(redis, "redis://**************************")
 
-        if os.environ.get("hikka_session"):
+        if os.environ.get("Bampi_session"):
             ret = ret.replace(
-                os.environ.get("hikka_session"),
+                os.environ.get("Bampi_session"),
                 "StringSession(**************************)",
             )
 

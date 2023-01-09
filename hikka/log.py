@@ -26,7 +26,7 @@ from .types import Module, BotInlineCall
 from .tl_cache import CustomTelegramClient
 
 
-class HikkaException:
+class BampiException:
     def __init__(self, message: str, local_vars: str, full_stack: str):
         self.message = message
         self.local_vars = local_vars
@@ -39,7 +39,7 @@ class HikkaException:
         exc_value: Exception,
         tb: traceback.TracebackException,
         stack: typing.Optional[typing.List[inspect.FrameInfo]] = None,
-    ) -> "HikkaException":
+    ) -> "BampiException":
         def to_hashable(dictionary: dict) -> dict:
             dictionary = dictionary.copy()
             for key, value in dictionary.items():
@@ -117,7 +117,7 @@ class HikkaException:
             else ""
         )
 
-        return HikkaException(
+        return BampiException(
             message=(
                 f"<b>🚫 Error!</b>\n{cause_mod}\n<b>🗄 Where:</b>"
                 f" <code>{utils.escape_html(filename)}:{lineno}</code><b>"
@@ -184,14 +184,14 @@ class TelegramLogsHandler(logging.Handler):
             self.targets[0].format(record)
             for record in (self.buffer + self.handledbuffer)
             if record.levelno >= lvl
-            and (not record.hikka_caller or client_id == record.hikka_caller)
+            and (not record.Bampi_caller or client_id == record.Bampi_caller)
         ]
 
     async def _show_full_stack(
         self,
         call: BotInlineCall,
         bot: "aiogram.Bot",  # type: ignore
-        item: HikkaException,
+        item: BampiException,
     ):
         chunks = (
             item.message
@@ -249,7 +249,7 @@ class TelegramLogsHandler(logging.Handler):
                     ),
                 )
                 for item in self.tg_buff
-                if isinstance(item[0], HikkaException)
+                if isinstance(item[0], BampiException)
                 and (not item[1] or item[1] == client_id or self.force_send_all)
             ]
             for client_id in self._mods
@@ -267,7 +267,7 @@ class TelegramLogsHandler(logging.Handler):
 
             if len(self._queue[client_id]) > 5:
                 logfile = io.BytesIO("".join(self._queue[client_id]).encode("utf-8"))
-                logfile.name = "hikka-logs.txt"
+                logfile.name = "Bampi-logs.txt"
                 logfile.seek(0)
                 await self._mods[client_id].inline.bot.send_document(
                     self._mods[client_id]._logchat,
@@ -294,11 +294,11 @@ class TelegramLogsHandler(logging.Handler):
         try:
             caller = next(
                 (
-                    frame_info.frame.f_locals["_hikka_client_id_logging_tag"]
+                    frame_info.frame.f_locals["_Bampi_client_id_logging_tag"]
                     for frame_info in inspect.stack()
                     if isinstance(
                         getattr(getattr(frame_info, "frame", None), "f_locals", {}).get(
-                            "_hikka_client_id_logging_tag"
+                            "_Bampi_client_id_logging_tag"
                         ),
                         int,
                     )
@@ -311,14 +311,14 @@ class TelegramLogsHandler(logging.Handler):
         except Exception:
             caller = None
 
-        record.hikka_caller = caller
+        record.Bampi_caller = caller
 
         if record.levelno >= self.tg_level:
             if record.exc_info:
                 logging.debug(record.__dict__)
                 self.tg_buff += [
                     (
-                        HikkaException.from_exc_info(
+                        BampiException.from_exc_info(
                             *record.exc_info,
                             stack=record.__dict__.get("stack", None),
                         ),
@@ -370,7 +370,7 @@ _tg_formatter = logging.Formatter(
 )
 
 rotating_handler = RotatingFileHandler(
-    filename="hikka.log",
+    filename="Bampi.log",
     mode="a",
     maxBytes=10 * 1024 * 1024,
     backupCount=1,

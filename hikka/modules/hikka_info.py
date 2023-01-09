@@ -7,11 +7,11 @@ from ..inline.types import InlineQuery
 
 
 @loader.tds
-class HikkaInfoMod(loader.Module):
+class BampiInfoMod(loader.Module):
     """Show userbot info"""
 
     strings = {
-        "name": "HikkaInfo",
+        "name": "BampiInfo",
         "owner": "Owner",
         "version": "Version",
         "build": "Build",
@@ -169,12 +169,12 @@ class HikkaInfoMod(loader.Module):
         ),
         "desc": (
             "<emoji document_id=6318565919471699564>🌌</emoji>"
-            " <b>Hikka</b>\n\nTelegram userbot mit vielen Funktionen, wie z.B. Inline"
+            " <b>Bampi</b>\n\nTelegram userbot mit vielen Funktionen, wie z.B. Inline"
             " Galerien, Formulare, Listen und Unterstützung für animierte Emojis."
             " Userbot - Software, die auf deinem Telegram-Account läuft. Wenn du"
             " einen Befehl in irgendeinem Chat schreibst, wird er dort ausgeführt."
             " Sieh dir Live-Beispiele auf <a"
-            ' href="https://github.com/hikariatama/Hikka">GitHub</a>'
+            ' href="https://github.com/hikariatama/Bampi">GitHub</a>'
         ),
     }
 
@@ -210,11 +210,11 @@ class HikkaInfoMod(loader.Module):
         ),
         "desc": (
             "<emoji document_id=6318565919471699564>🌌</emoji>"
-            " <b>Hikka</b>\n\nटेलीग्राम यूजरबॉट जिसमें इनलाइन गैलरी, फॉर्म, सूची और"
+            " <b>Bampi</b>\n\nटेलीग्राम यूजरबॉट जिसमें इनलाइन गैलरी, फॉर्म, सूची और"
             " एनीमेटेड इमोजी की समर्थन के साथ अनेक सुविधाएं हैं। यूजरबॉट - सॉफ़्टवेयर"
             " जो आपके टेलीग्राम अकाउंट पर चलती है। जब आप किसी चैट में किसी आदेश"
             " लिखते हैं, तो वह तुरंत उसे देखता है। जाँच करें <a"
-            ' href="https://github.com/hikariatama/Hikka">GitHub</a>'
+            ' href="https://github.com/hikariatama/Bampi">GitHub</a>'
         ),
     }
 
@@ -253,12 +253,12 @@ class HikkaInfoMod(loader.Module):
             " o'zgartirildi</b>"
         ),
         "desc": (
-            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Hikka</b>\n\nKo'p"
+            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Bampi</b>\n\nKo'p"
             " funksiyali userbot, buning ichida: ichki-gallereya, formalar, ro'yhatlar,"
             " hamda animatsiyalangan emojilar. Userbot - bu sening"
             " telegram-akkauntingni ichida ishlaydigan ilova. Hohlagan chatga komanda"
             " yozsangiz, tez orada bu komanda ishlaydi. <a"
-            ' href="https://github.com/hikariatama/Hikka">GitHub</a> da misollarni'
+            ' href="https://github.com/hikariatama/Bampi">GitHub</a> da misollarni'
             " ko'rishingiz mumkin"
         ),
     }
@@ -293,12 +293,12 @@ class HikkaInfoMod(loader.Module):
             " değiştirildi</b>"
         ),
         "desc": (
-            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Hikka</b>\n\\Çok fazla"
+            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Bampi</b>\n\\Çok fazla"
             " özellik barındıran Telegram kullanıcı botu, örneğin Çevrimiçi galeri,"
             " formlar, listeler ve animasyonlu emoji desteği gibi. Kullanıcı botu -"
             " Telegram hesabınızda çalışan bir yazılımdır. Bir sohbete bir komut"
             " yazarsanız, hemen orada çalışacaktır. Örnekleri görmek için <a"
-            ' href="https://github.com/hikariatama/Hikka">GitHub\'ı ziyaret'
+            ' href="https://github.com/hikariatama/Bampi">GitHub\'ı ziyaret'
             " edebilirsin</a>"
         ),
     }
@@ -332,12 +332,12 @@ class HikkaInfoMod(loader.Module):
             "<emoji document_id=5436040291507247633>🎉</emoji> <b>情報が変更されました</b>"
         ),
         "desc": (
-            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Hikka</b>\n\n多機能な"
+            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Bampi</b>\n\n多機能な"
             " ユーザーボットです。例えばオンラインギャラリー、フォーム、リスト、"
             " アニメーション付きの絵文字など。ユーザーボットは、Telegramアカウント内で"
             " 動作するアプリケーションです。チャットにコマンドを入力すると、すぐに"
             " そのコマンドが実行されます。例を見るには、<a"
-            ' href="https://github.com/hikariatama/Hikka">GitHub</a>を参照してください'
+            ' href="https://github.com/hikariatama/Bampi">GitHub</a>を参照してください'
         ),
     }
 
@@ -370,11 +370,11 @@ class HikkaInfoMod(loader.Module):
             "<emoji document_id=5436040291507247633>🎉</emoji> <b>정보가 변경되었습니다</b>"
         ),
         "desc": (
-            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Hikka</b>\n\n다양한 기능을"
+            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Bampi</b>\n\n다양한 기능을"
             " 제공하는 사용자 봇입니다. 예를 들어 온라인 갤러리, 양식, 목록, 애니메이션"
             " Emoji 등. 사용자 봇은 Telegram 계정 내에서 작동하는 애플리케이션입니다."
             " 채팅에 명령을 입력하면 즉시 해당 명령이 실행됩니다. 예를 보려면 <a"
-            ' href="https://github.com/hikariatama/Hikka">GitHub</a>를 참조하십시오'
+            ' href="https://github.com/hikariatama/Bampi">GitHub</a>를 참조하십시오'
         ),
     }
 
@@ -408,11 +408,11 @@ class HikkaInfoMod(loader.Module):
             " بنجاح</b>"
         ),
         "desc": (
-            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Hikka</b>\n\nبوت"
+            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Bampi</b>\n\nبوت"
             " مستخدم يوفر ميزات متعددة. على سبيل المثال: معرض عبر الإنترنت، نموذج،"
             " قائمة، Emoji الرسوم المتحركة وغيرها. بوت المستخدم هو تطبيق يعمل داخل حساب"
             " Telegram. يتم تنفيذ أوامر الدردشة على الفور. لمزيد من المعلومات، يرجى"
-            ' زيارة <a href="https://github.com/hikariatama/Hikka">GitHub</a>'
+            ' زيارة <a href="https://github.com/hikariatama/Bampi">GitHub</a>'
         ),
     }
 
@@ -450,12 +450,12 @@ class HikkaInfoMod(loader.Module):
             " con éxito</b>"
         ),
         "desc": (
-            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Hikka</b>\n\nEl bot de"
+            "<emoji document_id=6318565919471699564>🌌</emoji> <b>Bampi</b>\n\nEl bot de"
             " usuario proporciona varias funciones. Por ejemplo: Galería en línea,"
             " formulario, lista, Emoji animado y más. El bot de usuario es una"
             " aplicación que funciona dentro de una cuenta de Telegram. Las órdenes de"
             " chat se ejecutan de inmediato. Para obtener más información, consulte <a"
-            ' href="https://github.com/hikariatama/Hikka">GitHub</a>'
+            ' href="https://github.com/hikariatama/Bampi">GitHub</a>'
         ),
     }
 
@@ -488,11 +488,11 @@ class HikkaInfoMod(loader.Module):
         # Legacy migration
         if (
             self.config["banner_url"]
-            == "https://github.com/hikariatama/assets/raw/master/hikka_banner.png"
+            == "https://github.com/hikariatama/assets/raw/master/Bampi_banner.png"
         ):
             self.config[
                 "banner_url"
-            ] = "https://github.com/hikariatama/assets/raw/master/hikka_banner.mp4"
+            ] = "https://github.com/hikariatama/assets/raw/master/Bampi_banner.mp4"
 
     def _render_info(self, inline: bool) -> str:
         try:
@@ -516,7 +516,7 @@ class HikkaInfoMod(loader.Module):
         return (
             (
                 "<b>🌘 Bampi</b>\n"
-                if "hikka" not in self.config["custom_message"].lower()
+                if "Bampi" not in self.config["custom_message"].lower()
                 else ""
             )
             + self.config["custom_message"].format(
@@ -544,7 +544,7 @@ class HikkaInfoMod(loader.Module):
                     lambda x: utils.remove_html(x) if inline else x,
                     (
                         utils.get_platform_emoji()
-                        if self._client.hikka_me.premium and not inline
+                        if self._client.Bampi_me.premium and not inline
                         else "🌘 Bampi",
                         "<emoji document_id=5373141891321699086>😎</emoji>",
                         "<emoji document_id=5469741319330996757>💫</emoji>",
@@ -582,7 +582,7 @@ class HikkaInfoMod(loader.Module):
                 else {"message": self._render_info(True)}
             ),
             "thumb": (
-                "https://github.com/hikariatama/Hikka/raw/master/assets/hikka_pfp.png"
+                "https://github.com/hikariatama/Bampi/raw/master/assets/Bampi_pfp.png"
             ),
             "reply_markup": self._get_mark(),
         }
@@ -628,8 +628,8 @@ class HikkaInfoMod(loader.Module):
         ar_doc="إرسال معلومات حول البوت",
         es_doc="Enviar información sobre el bot",
     )
-    async def hikkainfocmd(self, message: Message):
-        """Send info aka 'What is Hikka?'"""
+    async def Bampiinfocmd(self, message: Message):
+        """Send info aka 'What is Bampi?'"""
         await utils.answer(message, self.strings("desc"))
 
     @loader.command(

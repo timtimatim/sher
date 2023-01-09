@@ -37,7 +37,7 @@ class HelpMod(loader.Module):
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 No docs",
         "support": (
-            "{} <b>Link to </b><a href='https://t.me/hikka_talks'>support chat</a></b>"
+            "{} <b>Link to </b><a href='https://t.me/Bampi_talks'>support chat</a></b>"
         ),
         "partial_load": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>Userbot is not"
@@ -47,7 +47,7 @@ class HelpMod(loader.Module):
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>No exact match"
             " occured, so the closest result is shown instead</b>"
         ),
-        "request_join": "You requested link for Hikka support chat",
+        "request_join": "You requested link for Bampi support chat",
         "core_notice": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>This is a core"
             " module. You can't unload it nor replace</b>"
@@ -76,7 +76,7 @@ class HelpMod(loader.Module):
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 Нет описания",
         "support": (
-            "{} <b>Ссылка на </b><a href='https://t.me/hikka_talks'>чат помощи</a></b>"
+            "{} <b>Ссылка на </b><a href='https://t.me/Bampi_talks'>чат помощи</a></b>"
         ),
         "_cls_doc": "Показывает помощь по модулям",
         "partial_load": (
@@ -87,7 +87,7 @@ class HelpMod(loader.Module):
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>Точного совпадения"
             " не нашлось, поэтому было выбрано наиболее подходящее</b>"
         ),
-        "request_join": "Вы запросили ссылку на чат помощи Hikka",
+        "request_join": "Вы запросили ссылку на чат помощи Bampi",
         "core_notice": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>Это встроенный"
             " модуль. Вы не можете его выгрузить или заменить</b>"
@@ -116,7 +116,7 @@ class HelpMod(loader.Module):
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 Keine Dokumentation",
         "support": (
-            "{} <b>Link zum </b><a href='https://t.me/hikka_talks'>Supportchat</a></b>"
+            "{} <b>Link zum </b><a href='https://t.me/Bampi_talks'>Supportchat</a></b>"
         ),
         "_cls_doc": "Zeigt Hilfe zu Modulen an",
         "partial_load": (
@@ -155,7 +155,7 @@ class HelpMod(loader.Module):
         ),
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 Dokümantasyon yok",
-        "support": "{} <b><a href='https://t.me/hikka_talks'>Destek sohbeti</a></b>",
+        "support": "{} <b><a href='https://t.me/Bampi_talks'>Destek sohbeti</a></b>",
         "_cls_doc": "Modül yardımını gösterir",
         "partial_load": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>Kullanıcı botu"
@@ -165,7 +165,7 @@ class HelpMod(loader.Module):
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>Herhangi bir"
             " eşleşme bulunamadığından, en uygun sonuç gösterildi</b>"
         ),
-        "request_join": "Hikka Destek sohbetinin davet bağlantısını istediniz",
+        "request_join": "Bampi Destek sohbetinin davet bağlantısını istediniz",
         "core_notice": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>Bu dahili"
             " b,r modül. Bu modülü kaldıramaz veya değiştiremezsin</b>"
@@ -193,7 +193,7 @@ class HelpMod(loader.Module):
         ),
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 दस्तावेज़ीकरण नहीं",
-        "support": "{} <b><a href='https://t.me/hikka_talks'>सपोर्ट चैट</a></b>",
+        "support": "{} <b><a href='https://t.me/Bampi_talks'>सपोर्ट चैट</a></b>",
         "_cls_doc": "मॉड्यूल सहायता दिखाता है",
         "partial_load": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>उपयोगकर्ता बॉट अभी भी"
@@ -231,7 +231,7 @@ class HelpMod(loader.Module):
         ),
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 Hujjatlanmagan",
-        "support": "{} <b><a href='https://t.me/hikka_talks'>Yordam chat</a></b>",
+        "support": "{} <b><a href='https://t.me/Bampi_talks'>Yordam chat</a></b>",
         "_cls_doc": "Modul yordamini ko'rsatadi",
         "partial_load": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>Foydalanuvchi boti"
@@ -269,7 +269,7 @@ class HelpMod(loader.Module):
         ),
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 ドキュメント化されていません",
-        "support": "{} <b><a href='https://t.me/hikka_talks'>サポートチャット</a></b>",
+        "support": "{} <b><a href='https://t.me/Bampi_talks'>サポートチャット</a></b>",
         "_cls_doc": "モジュールのヘルプを表示します",
         "partial_load": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>ユーザーボットはまだ完全に"
@@ -306,7 +306,7 @@ class HelpMod(loader.Module):
         ),
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 문서화되지 않음",
-        "support": "{} <b><a href='https://t.me/hikka_talks'>지원 채팅</a></b>",
+        "support": "{} <b><a href='https://t.me/Bampi_talks'>지원 채팅</a></b>",
         "_cls_doc": "모듈 도움말을 표시합니다",
         "partial_load": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>사용자 봇이 아직 완전히"
@@ -344,7 +344,7 @@ class HelpMod(loader.Module):
         ),
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 لم يتم توثيقه",
-        "support": "{} <b><a href='https://t.me/hikka_talks'>دردشة الدعم</a></b>",
+        "support": "{} <b><a href='https://t.me/Bampi_talks'>دردشة الدعم</a></b>",
         "_cls_doc": "عرض مساعدة الموديول",
         "partial_load": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>لم يتم تحميل البوت"
@@ -382,7 +382,7 @@ class HelpMod(loader.Module):
         ),
         "ihandler": "\n🎹 <code>{}</code> {}",
         "undoc_ihandler": "🦥 Sin documentar",
-        "support": "{} <b><a href='https://t.me/hikka_talks'>Chat de soporte</a></b>",
+        "support": "{} <b><a href='https://t.me/Bampi_talks'>Chat de soporte</a></b>",
         "_cls_doc": "Muestra la ayuda del módulo",
         "partial_load": (
             "<emoji document_id=5472105307985419058>☝️</emoji> <b>El bot no se ha"
@@ -409,9 +409,9 @@ class HelpMod(loader.Module):
                 validator=loader.validators.Emoji(length=1),
             ),
             loader.ConfigValue(
-                "hikka_emoji",
+                "Bampi_emoji",
                 "🌘",
-                lambda: "Hikka-only module bullet",
+                lambda: "Bampi-only module bullet",
                 validator=loader.validators.Emoji(length=1),
             ),
             loader.ConfigValue(
@@ -672,7 +672,7 @@ class HelpMod(loader.Module):
             if core:
                 emoji = self.config["core_emoji"]
             elif inline:
-                emoji = self.config["hikka_emoji"]
+                emoji = self.config["Bampi_emoji"]
             else:
                 emoji = self.config["plain_emoji"]
 
@@ -759,27 +759,27 @@ class HelpMod(loader.Module):
         )
 
     @loader.command(
-        ru_doc="Показать ссылку на чат помощи Hikka",
-        de_doc="Zeige den Link zum Hikka-Hilfe-Chat",
-        tr_doc="Hikka yardım sohbetinin bağlantısını göster",
-        uz_doc="Hikka yordam sohbatining havolasini ko'rsatish",
+        ru_doc="Показать ссылку на чат помощи Bampi",
+        de_doc="Zeige den Link zum Bampi-Hilfe-Chat",
+        tr_doc="Bampi yardım sohbetinin bağlantısını göster",
+        uz_doc="Bampi yordam sohbatining havolasini ko'rsatish",
         hi_doc="हिक्का सहायता चैट का लिंक दिखाएं",
         ja_doc="ヒッカのヘルプチャットへのリンクを表示します",
         kr_doc="히카 도움말 채팅 링크를 표시합니다",
         ar_doc="إظهار رابط دردشة مساعدة هيكا",
-        es_doc="Mostrar enlace al chat de ayuda de Hikka",
+        es_doc="Mostrar enlace al chat de ayuda de Bampi",
     )
     async def support(self, message):
-        """Get link of Hikka support chat"""
+        """Get link of Bampi support chat"""
         if message.out:
-            await self.request_join("@hikka_talks", self.strings("request_join"))
+            await self.request_join("@Bampi_talks", self.strings("request_join"))
 
         await utils.answer(
             message,
             self.strings("support").format(
                 (
                     utils.get_platform_emoji(self._client)
-                    if self._client.hikka_me.premium and CUSTOM_EMOJIS
+                    if self._client.Bampi_me.premium and CUSTOM_EMOJIS
                     else "🌘"
                 )
             ),

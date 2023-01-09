@@ -238,7 +238,7 @@ def raise_auth():
     raise InteractiveAuthRequired()
 
 
-class Hikka:
+class Bampi:
     """Main userbot instance, which can handle multiple clients"""
 
     omit_log = False
@@ -291,7 +291,7 @@ class Hikka:
                 )
             )
             for session in filter(
-                lambda f: f.startswith("hikka-") and f.endswith(".session"),
+                lambda f: f.startswith("Bampi-") and f.endswith(".session"),
                 os.listdir(self.arguments.data_root or BASE_DIR),
             )
         ]
@@ -364,12 +364,12 @@ class Hikka:
             telegram_id = me.id
             client._tg_id = telegram_id
             client.tg_id = telegram_id
-            client.hikka_me = me
+            client.Bampi_me = me
 
         session = SQLiteSession(
             os.path.join(
                 self.arguments.data_root or BASE_DIR,
-                f"hikka-{telegram_id}",
+                f"Bampi-{telegram_id}",
             )
         )
 
@@ -385,8 +385,8 @@ class Hikka:
         client.session = session
         # Set db attribute to this client in order to save
         # custom bot nickname from web
-        client.hikka_db = database.Database(client)
-        await client.hikka_db.init()
+        client.Bampi_db = database.Database(client)
+        await client.Bampi_db.init()
 
     async def _web_banner(self):
         """Shows web banner"""
@@ -514,7 +514,7 @@ class Hikka:
             me = await client.get_me()
             client._tg_id = me.id
             client.tg_id = me.id
-            client.hikka_me = me
+            client.Bampi_me = me
             while await self.amain(first, client):
                 first = False
 
@@ -665,4 +665,4 @@ class Hikka:
 
 telethon.extensions.html.CUSTOM_EMOJIS = not get_config_key("disable_custom_emojis")
 
-hikka = Hikka()
+Bampi = Bampi()

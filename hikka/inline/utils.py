@@ -29,7 +29,7 @@ from aiogram.utils.exceptions import (
 )
 
 from .. import utils
-from ..types import HikkaReplyMarkup
+from ..types import BampiReplyMarkup
 from .types import InlineUnit, InlineCall
 
 from telethon.utils import resolve_inline_message_id
@@ -40,7 +40,7 @@ logger = logging.getLogger(__name__)
 class Utils(InlineUnit):
     def _generate_markup(
         self,
-        markup_obj: typing.Optional[typing.Union[HikkaReplyMarkup, str]],
+        markup_obj: typing.Optional[typing.Union[BampiReplyMarkup, str]],
     ) -> typing.Optional[InlineKeyboardMarkup]:
         """Generate markup for form or list of `dict`s"""
         if not markup_obj:
@@ -264,7 +264,7 @@ class Utils(InlineUnit):
     async def _edit_unit(
         self,
         text: typing.Optional[str] = None,
-        reply_markup: typing.Optional[HikkaReplyMarkup] = None,
+        reply_markup: typing.Optional[BampiReplyMarkup] = None,
         *,
         photo: typing.Optional[str] = None,
         file: typing.Optional[str] = None,
@@ -686,7 +686,7 @@ class Utils(InlineUnit):
 
     def _validate_markup(
         self,
-        buttons: typing.Optional[HikkaReplyMarkup],
+        buttons: typing.Optional[BampiReplyMarkup],
     ) -> typing.List[typing.List[dict]]:
         if buttons is None:
             buttons = []

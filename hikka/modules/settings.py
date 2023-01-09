@@ -71,11 +71,11 @@ class CoreMod(loader.Module):
         "db_cleared": (
             "<emoji document_id=5368324170671202286>👍</emoji><b> Database cleared</b>"
         ),
-        "hikka": (
+        "Bampi": (
             "{}\n\n<emoji document_id=5406931726184225260>🧐</emoji> <b>Version:"
             " {}.{}.{}</b>\n<emoji document_id=6318902906900711458>🧱</emoji> <b>Build:"
             " </b><i>{}</i>\n\n<emoji document_id=5233346091725888979>⚙️</emoji>"
-            " <b>Hikka-TL: </b><i>{}</i>\n\n<emoji"
+            " <b>Bampi-TL: </b><i>{}</i>\n\n<emoji"
             " document_id=5454182070156794055>⌨️</emoji> <b>Developer:"
             " t.me/hikariatama</b>"
         ),
@@ -154,11 +154,11 @@ class CoreMod(loader.Module):
         "db_cleared": (
             "<emoji document_id=5368324170671202286>👍</emoji><b> База очищена</b>"
         ),
-        "hikka": (
+        "Bampi": (
             "{}\n\n<emoji document_id=5406931726184225260>🧐</emoji> <b>Версия:"
             " {}.{}.{}</b>\n<emoji document_id=6318902906900711458>🧱</emoji> <b>Сборка:"
             " </b><i>{}</i>\n\n<emoji document_id=5233346091725888979>⚙️</emoji>"
-            " <b>Hikka-TL: </b><i>{}</i>\n\n<emoji"
+            " <b>Bampi-TL: </b><i>{}</i>\n\n<emoji"
             " document_id=5454182070156794055>⌨️</emoji> <b>Developer:"
             " t.me/hikariatama</b>"
         ),
@@ -238,11 +238,11 @@ class CoreMod(loader.Module):
         "db_cleared": (
             "<emoji document_id=5368324170671202286>👍</emoji><b>Basis gelöscht</b>"
         ),
-        "hikka": (
+        "Bampi": (
             "{}\n\n<emoji document_id=5406931726184225260>🧐</emoji> <b>Version:"
             " {}.{}.{}</b>\n<emoji document_id=6318902906900711458>🧱</emoji> <b>Build:"
             " </b><i>{}</i>\n\n<emoji document_id=5233346091725888979>⚙️</emoji>"
-            " <b>Hikka-TL: </b><i>{}</i>\n\n<emoji"
+            " <b>Bampi-TL: </b><i>{}</i>\n\n<emoji"
             "document_id=5454182070156794055>⌨️</emoji> <b>Entwickler:"
             "t.me/hikariatama</b>"
         ),
@@ -323,11 +323,11 @@ class CoreMod(loader.Module):
         "db_cleared": (
             "<emoji document_id=5368324170671202286>👍</emoji><b> Taban temizlendi</b>"
         ),
-        "hikka": (
+        "Bampi": (
             "{}\n\n<emoji document_id=5406931726184225260>🧐</emoji> <b>Sürüm:"
             " {}.{}.{}</b>\n<emoji document_id=6318902906900711458>🧱</emoji> <b>Yapı:"
             " </b><i>{}</i>\n\n<emoji document_id=5233346091725888979>⚙️</emoji>"
-            " <b>Hikka-TL: </b><i>{}</i>\n\n<emoji"
+            " <b>Bampi-TL: </b><i>{}</i>\n\n<emoji"
             "document_id=5454182070156794055>⌨️</emoji> <b>Geliştirici:"
             "t.me/hikariatama</b>"
         ),
@@ -409,7 +409,7 @@ class CoreMod(loader.Module):
         "db_cleared": (
             "<emoji document_id=5368324170671202286>👍</emoji><b> आधार साफ़ हो गया</b>"
         ),
-        "hikka": (
+        "Bampi": (
             "{}\n\n<emoji document_id=5406931726184225260>🧐</emoji> <b>वर्शन:"
             " {}.{}.{}</b>\n<emoji document_id=6318902906900711458>🧱</emoji> <b>बिल्ड:"
             " </b><i>{}</i>\n\n<emoji document_id=5233346091725888979>⚙️</emoji>"
@@ -493,11 +493,11 @@ class CoreMod(loader.Module):
         "db_cleared": (
             "<emoji document_id=5368324170671202286>👍</emoji><b> Baza tozalandi</b>"
         ),
-        "hikka": (
+        "Bampi": (
             "{}\n\n<emoji document_id=5406931726184225260>🧐</emoji> <b>Versiya:"
             " {}.{}.{}</b>\n<emoji document_id=6318902906900711458>🧱</emoji>"
             " <b>Yaratish: </b><i>{}</i>\n\n<emoji"
-            " document_id=5233346091725888979>⚙️</emoji> <b>Hikka-TL:"
+            " document_id=5233346091725888979>⚙️</emoji> <b>Bampi-TL:"
             " </b><i>{}</i>\n\n<emojidocument_id=5454182070156794055>⌨️</emoji>"
             " <b>Ishlab chiquvchi: t.me/hikariatama</b>"
         ),
@@ -581,11 +581,11 @@ class CoreMod(loader.Module):
         "db_cleared": (
             "<emoji document_id=5368324170671202286>👍</emoji><b> データベースがクリアされました</b>"
         ),
-        "hikka": (
+        "Bampi": (
             "{}\n\n<emoji document_id=5406931726184225260>🧐</emoji> <b>バージョン:"
             " {}.{}.{}</b>\n<emoji document_id=6318902906900711458>🧱</emoji>"
             " <b>ビルド: </b><i>{}</i>\n\n<emoji"
-            " document_id=5233346091725888979>⚙️</emoji> <b>Hikka-TL:"
+            " document_id=5233346091725888979>⚙️</emoji> <b>Bampi-TL:"
             " </b><i>{}</i>\n\n<emojidocument_id=5454182070156794055>⌨️</emoji>"
             " <b>開発者: t.me/hikariatama</b>"
         ),
@@ -646,11 +646,11 @@ class CoreMod(loader.Module):
         "db_cleared": (
             "<emoji document_id=5368324170671202286>👍</emoji><b> 데이터베이스가 초기화되었습니다</b>"
         ),
-        "hikka": (
+        "Bampi": (
             "{}\n\n<emoji document_id=5406931726184225260>🧐</emoji> <b>버전:"
             " {}.{}.{}</b>\n<emoji document_id=6318902906900711458>🧱</emoji>"
             " <b>빌드: </b><i>{}</i>\n\n<emoji"
-            " document_id=5233346091725888979>⚙️</emoji> <b>Hikka-TL:"
+            " document_id=5233346091725888979>⚙️</emoji> <b>Bampi-TL:"
             " </b><i>{}</i>\n\n<emojidocument_id=5454182070156794055>⌨️</emoji>"
             " <b>개발자: t.me/hikariatama</b>"
         ),
@@ -713,11 +713,11 @@ class CoreMod(loader.Module):
             "<emoji document_id=5368324170671202286>👍</emoji><b>تم مسح قاعدة"
             " البيانات</b>"
         ),
-        "hikka": (
+        "Bampi": (
             "{}\n\n<emoji document_id=5406931726184225260>🧐</emoji> <b>الإصدار:"
             " {}.{}.{}</b>\n<emoji document_id=6318902906900711458>🧱</emoji>"
             " <b>البناء: </b><i>{}</i>\n\n<emoji"
-            " document_id=5233346091725888979>⚙️</emoji> <b>Hikka-TL:"
+            " document_id=5233346091725888979>⚙️</emoji> <b>Bampi-TL:"
             " </b><i>{}</i>\n\n<emojidocument_id=5454182070156794055>⌨️</emoji>"
             " <b>المطور: t.me/hikariatama</b>"
         ),
@@ -769,11 +769,11 @@ class CoreMod(loader.Module):
             "<emoji document_id=5368324170671202286>👍</emoji><b>Base de datos"
             " borrada</b>"
         ),
-        "hikka": (
+        "Bampi": (
             "{}\n\n<emoji document_id=5406931726184225260>🧐</emoji> <b>Versión:"
             " {}.{}.{}</b>\n<emoji document_id=6318902906900711458>🧱</emoji>"
             " <b>Build: </b><i>{}</i>\n\n<emoji"
-            " document_id=5233346091725888979>⚙️</emoji> <b>Hikka-TL:"
+            " document_id=5233346091725888979>⚙️</emoji> <b>Bampi-TL:"
             " </b><i>{}</i>\n\n<emojidocument_id=5454182070156794055>⌨️</emoji>"
             " <b>Desarrollador: t.me/hikariatama</b>"
         ),
@@ -808,21 +808,21 @@ class CoreMod(loader.Module):
         return f"{str(chatid)}.{module}" if module else chatid
 
     @loader.command(
-        ru_doc="Показать версию Hikka",
-        de_doc="Zeige die Hikka-Version an",
-        tr_doc="Hikka sürümünü gösterir",
-        uz_doc="Hikka versiyasini ko'rsatish",
-        hi_doc="Hikka का संस्करण दिखाएं",
-        ja_doc="Hikkaのバージョンを表示します",
-        kr_doc="Hikka 버전을 표시합니다",
-        ar_doc="إظهار إصدار Hikka",
-        es_doc="Mostrar la versión de Hikka",
+        ru_doc="Показать версию Bampi",
+        de_doc="Zeige die Bampi-Version an",
+        tr_doc="Bampi sürümünü gösterir",
+        uz_doc="Bampi versiyasini ko'rsatish",
+        hi_doc="Bampi का संस्करण दिखाएं",
+        ja_doc="Bampiのバージョンを表示します",
+        kr_doc="Bampi 버전을 표시합니다",
+        ar_doc="إظهار إصدار Bampi",
+        es_doc="Mostrar la versión de Bampi",
     )
-    async def hikkacmd(self, message: Message):
-        """Get Hikka version"""
+    async def Bampicmd(self, message: Message):
+        """Get Bampi version"""
         await utils.answer(
             message,
-            self.strings("hikka").format(
+            self.strings("Bampi").format(
                 (
                     utils.get_platform_emoji(self._client)
                     + (
@@ -834,8 +834,8 @@ class CoreMod(loader.Module):
                         else ""
                     )
                 )
-                if self._client.hikka_me.premium and CUSTOM_EMOJIS
-                else "🌘 <b>Hikka userbot</b>",
+                if self._client.Bampi_me.premium and CUSTOM_EMOJIS
+                else "🌘 <b>Bampi userbot</b>",
                 *version.__version__,
                 utils.get_commit_url(),
                 f"{telethon.__version__} #{telethon.tl.alltlobjects.LAYER}",

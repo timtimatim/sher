@@ -76,7 +76,7 @@ class Web:
     def _check_session(self, request: web.Request) -> bool:
         return (
             request.cookies.get("session", None) in self._sessions
-            if main.hikka.clients
+            if main.Bampi.clients
             else True
         )
 
@@ -138,7 +138,7 @@ class Web:
             if not await self._check_bot(client, text):
                 return web.Response(body="OCCUPIED")
 
-        db.set("hikka.inline", "custom_bot", text)
+        db.set("Bampi.inline", "custom_bot", text)
         return web.Response(body="OK")
 
     async def set_tg_api(self, request: web.Request) -> web.Response:
@@ -198,7 +198,7 @@ class Web:
             connection=self.connection,
             proxy=self.proxy,
             connection_retries=None,
-            device_model="Hikka",
+            device_model="Bampi",
         )
 
         self._pending_client = client
@@ -287,7 +287,7 @@ class Web:
                     ),
                 )
 
-        await main.hikka.save_client_session(self._pending_client)
+        await main.Bampi.save_client_session(self._pending_client)
         return web.Response()
 
     async def finish_login(self, request: web.Request) -> web.Response:
@@ -297,10 +297,10 @@ class Web:
         if not self._pending_client:
             return web.Response(status=400)
 
-        first_session = not bool(main.hikka.clients)
+        first_session = not bool(main.Bampi.clients)
 
         # Client is ready to pass in to dispatcher
-        main.hikka.clients = list(set(main.hikka.clients + [self._pending_client]))
+        main.Bampi.clients = list(set(main.Bampi.clients + [self._pending_client]))
         self._pending_client = None
 
         self.clients_set.set()
@@ -309,7 +309,7 @@ class Web:
             atexit.register(functools.partial(restart, *sys.argv[1:]))
             handler = logging.getLogger().handlers[0]
             handler.setLevel(logging.CRITICAL)
-            for client in main.hikka.clients:
+            for client in main.Bampi.clients:
                 await client.disconnect()
 
             sys.exit(0)
@@ -394,7 +394,7 @@ class Web:
             except Exception:
                 pass
 
-        session = f"hikka_{utils.rand(16)}"
+        session = f"Bampi_{utils.rand(16)}"
 
         if not ops:
             # If no auth message was sent, just leave it empty
@@ -402,7 +402,7 @@ class Web:
             # inline bot or did not authorize any sessions
             return web.Response(body=session)
 
-        if not await main.hikka.wait_for_web_auth(token):
+        if not await main.Bampi.wait_for_web_auth(token):
             for op in ops:
                 await op()
             return web.Response(body="TIMEOUT")

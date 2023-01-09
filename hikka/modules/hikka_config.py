@@ -15,11 +15,11 @@ from ..inline.types import InlineCall
 
 
 @loader.tds
-class HikkaConfigMod(loader.Module):
-    """Interactive configurator for Hikka Userbot"""
+class BampiConfigMod(loader.Module):
+    """Interactive configurator for Bampi Userbot"""
 
     strings = {
-        "name": "HikkaConfig",
+        "name": "BampiConfig",
         "choose_core": "🎚 <b>Choose a category</b>",
         "configure": "🎚 <b>Choose a module to configure</b>",
         "configure_lib": "🪴 <b>Choose a library to configure</b>",
@@ -246,7 +246,7 @@ class HikkaConfigMod(loader.Module):
             "♻️ <b>Option </b><code>{}</code><b> der Bibliothek </b><code>{}</code>"
             "<b> auf den Standardwert zurückgesetzt</b>\n<b>Aktuell: {}</b>"
         ),
-        "_cls_doc": "Interaktiver Konfigurator von Hikka",
+        "_cls_doc": "Interaktiver Konfigurator von Bampi",
         "args": "🚫 <b>Du hast falsche Argumente angegeben</b>",
         "no_mod": "🚫 <b>Modul existiert nicht</b>",
         "no_option": "🚫 <b>Modul hat keine solche Konfigurationsoption</b>",
@@ -310,7 +310,7 @@ class HikkaConfigMod(loader.Module):
             "♻️ <b>विकल्प </b><code>{}</code><b> लाइब्रेरी </b><code>{}</code>"
             "<b> डिफ़ॉल्ट मान पर रीसेट कर दिया गया</b>\n<b>वर्तमान: {}</b>"
         ),
-        "_cls_doc": "Hikka की इंटरैक्टिव कॉन्फ़िगरेशन",
+        "_cls_doc": "Bampi की इंटरैक्टिव कॉन्फ़िगरेशन",
         "args": "🚫 <b>आपने गलत तर्क प्रदान किए हैं</b>",
         "no_mod": "🚫 <b>मॉड्यूल मौजूद नहीं है</b>",
         "no_option": "🚫 <b>मॉड्यूल में ऐसा कोई विकल्प नहीं है</b>",
@@ -370,7 +370,7 @@ class HikkaConfigMod(loader.Module):
             "♻️ <b>Modul </b><code>{}</code><b> kutubxonasi sozlamasi standart qiymatga"
             " tiklandi</b>\n<b>Hozirgi: {}</b>"
         ),
-        "_cls_doc": "Hikka interaktiv konfiguratsiyasi",
+        "_cls_doc": "Bampi interaktiv konfiguratsiyasi",
         "args": "🚫 <b>Siz noto'g'ri ma'lumot kiritdingiz</b>",
         "no_mod": "🚫 <b>Modul mavjud emas</b>",
         "no_option": "🚫 <b>Modulda bunday sozlamalar mavjud emas</b>",
@@ -419,7 +419,7 @@ class HikkaConfigMod(loader.Module):
             "♻️ <b>Modül </b><code>{}</code><b> kütüphanesi seçeneği varsayılan değere"
             " sıfırlandı</b>\n<b>Mevcut: {}</b>"
         ),
-        "_cls_doc": "Hikka etkileşimli yapılandırması",
+        "_cls_doc": "Bampi etkileşimli yapılandırması",
         "args": "🚫 <b>Yanlış argüman girdiniz</b>",
         "no_mod": "🚫 <b>Modül bulunamadı</b>",
         "no_option": "🚫 <b>Modülde böyle bir seçenek bulunamadı</b>",
@@ -463,7 +463,7 @@ class HikkaConfigMod(loader.Module):
             "♻️ <b>モジュール </b><code>{}</code><b> ライブラリオプションがデフォルト値に"
             " リセットされました</b>\n<b>現在: {}</b>"
         ),
-        "_cls_doc": "Hikka対話的な設定",
+        "_cls_doc": "Bampi対話的な設定",
         "args": "🚫 <b>引数が間違っています</b>",
         "no_mod": "🚫 <b>モジュールが見つかりません</b>",
         "no_option": "🚫 <b>モジュールにこのオプションはありません</b>",
@@ -506,7 +506,7 @@ class HikkaConfigMod(loader.Module):
             "♻️ <b>모듈 </b><code>{}</code><b> 라이브러리 옵션이 기본값으로"
             " 재설정되었습니다</b>\n<b>현재: {}</b>"
         ),
-        "_cls_doc": "Hikka 대화형 설정",
+        "_cls_doc": "Bampi 대화형 설정",
         "args": "🚫 <b>잘못된 인수입니다</b>",
         "no_mod": "🚫 <b>모듈을 찾을 수 없습니다</b>",
         "no_option": "🚫 <b>모듈에 이 옵션이 없습니다</b>",
@@ -551,7 +551,7 @@ class HikkaConfigMod(loader.Module):
             "♻️ <b>تمت إعادة تعيين خيار مكتبة الموديول </b><code>{}</code><b> إلى"
             " الافتراضي</b>\n<b>الحالي: {}</b>"
         ),
-        "_cls_doc": "إعدادات Hikka التفاعلية",
+        "_cls_doc": "إعدادات Bampi التفاعلية",
         "args": "🚫 <b>معلمات غير صحيحة</b>",
         "no_mod": "🚫 <b>لم يتم العثور على الموديول</b>",
         "no_option": "🚫 <b>لا يوجد خيار بهذا الاسم في الموديول</b>",
@@ -597,7 +597,7 @@ class HikkaConfigMod(loader.Module):
             "♻️ <b>La opción de la librería del módulo </b><code>{}</code><b> se ha"
             " reiniciado a su valor por defecto</b>\n<b>Actual: {}</b>"
         ),
-        "_cls_doc": "Configuraciones interactivas de Hikka",
+        "_cls_doc": "Configuraciones interactivas de Bampi",
         "args": "🚫 <b>Argumentos no válidos</b>",
         "no_mod": "🚫 <b>No se encontró el módulo</b>",
         "no_option": "🚫 <b>El módulo no tiene esta opción</b>",

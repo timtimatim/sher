@@ -1,27 +1,27 @@
-<a href="https://deepsource.io/gh/hikariatama/Hikka/?ref=repository-badge"><img src="https://deepsource.io/gh/hikariatama/Hikka.svg/?label=active+issues&show_trend=true&token=IPVI_QX-cSuQSVeVl8cb5PLt" alt="DeepSource"></a>
-<a href="https://deepsource.io/gh/hikariatama/Hikka/?ref=repository-badge"><img src="https://deepsource.io/gh/hikariatama/Hikka.svg/?label=resolved+issues&show_trend=true&token=IPVI_QX-cSuQSVeVl8cb5PLt" alt="DeepSource"></a><br>
-<a href="https://www.codacy.com/gh/hikariatama/Hikka/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hikariatama/Hikka&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/97e3ea868f9344a5aa6e4d874f83db14"/></a>
-<a href="#"><img src="https://img.shields.io/github/languages/code-size/hikariatama/Hikka"/></a>
-<a href="#"><img src="https://img.shields.io/github/issues-raw/hikariatama/Hikka"/></a>
-<a href="#"><img src="https://img.shields.io/github/license/hikariatama/Hikka"/></a>
-<a href="#"><img src="https://img.shields.io/github/commit-activity/m/hikariatama/Hikka"/></a>
-<a href="#"><img src="https://img.shields.io/github/forks/hikariatama/Hikka?style=flat"/></a>
-<a href="#"><img src="https://img.shields.io/github/stars/hikariatama/Hikka"/></a>
+<a href="https://deepsource.io/gh/hikariatama/Bampi/?ref=repository-badge"><img src="https://deepsource.io/gh/hikariatama/Bampi.svg/?label=active+issues&show_trend=true&token=IPVI_QX-cSuQSVeVl8cb5PLt" alt="DeepSource"></a>
+<a href="https://deepsource.io/gh/hikariatama/Bampi/?ref=repository-badge"><img src="https://deepsource.io/gh/hikariatama/Bampi.svg/?label=resolved+issues&show_trend=true&token=IPVI_QX-cSuQSVeVl8cb5PLt" alt="DeepSource"></a><br>
+<a href="https://www.codacy.com/gh/hikariatama/Bampi/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hikariatama/Bampi&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/97e3ea868f9344a5aa6e4d874f83db14"/></a>
+<a href="#"><img src="https://img.shields.io/github/languages/code-size/hikariatama/Bampi"/></a>
+<a href="#"><img src="https://img.shields.io/github/issues-raw/hikariatama/Bampi"/></a>
+<a href="#"><img src="https://img.shields.io/github/license/hikariatama/Bampi"/></a>
+<a href="#"><img src="https://img.shields.io/github/commit-activity/m/hikariatama/Bampi"/></a>
+<a href="#"><img src="https://img.shields.io/github/forks/hikariatama/Bampi?style=flat"/></a>
+<a href="#"><img src="https://img.shields.io/github/stars/hikariatama/Bampi"/></a>
 <hr>
 <h2><img src="https://github.com/hikariatama/assets/raw/master/1326-command-window-line-flat.webp" height="54" align="middle"> Installation</h2>
 <img src="https://github.com/hikariatama/assets/raw/master/install.gif">
 
-<a href="https://cloud.okteto.com/#/deploy?repository=https://github.com/hikariatama/Hikka"><img src="https://user-images.githubusercontent.com/36935426/167272305-91fd67c9-c3fc-4b4b-8a73-c35e57c8fcc5.png" height="40"></a>
+<a href="https://cloud.okteto.com/#/deploy?repository=https://github.com/hikariatama/Bampi"><img src="https://user-images.githubusercontent.com/36935426/167272305-91fd67c9-c3fc-4b4b-8a73-c35e57c8fcc5.png" height="40"></a>
 <a href="https://t.me/lavhostbot?start=SGlra2E"><img src="https://user-images.githubusercontent.com/36935426/167272288-85f00779-4b98-47da-8d0d-ea2c6370b979.png" height="40"></a>
 
-<b>⚠️ Okteto now bans userbots, so it's not recommended to install Hikka there!</b>
+<b>⚠️ Okteto now bans userbots, so it's not recommended to install Bampi there!</b>
 
 <b>Script installation:</b>
 Simply run this command out of <b>root</b>:
-<code>. <(wget -qO- https://hikariatama.ru/get_hikka)</code>
+<code>. <(wget -qO- https://hikariatama.ru/get_Bampi)</code>
 
 <b>Manual installation:</b>
-<code>apt update && apt install git libcairo2 -y && git clone https://github.com/hikariatama/Hikka && cd Hikka && pip install -r requirements.txt && python3 -m hikka</code>
+<code>apt update && apt install git libcairo2 -y && git clone https://github.com/hikariatama/Bampi && cd Bampi && pip install -r requirements.txt && python3 -m Bampi</code>
 
 
 <hr>
@@ -46,10 +46,10 @@ Simply run this command out of <b>root</b>:
 <hr>
 <h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/680-it-developer-flat.webp" height="54" align="middle"> Documentation</h2>
 
-Check out <a href="https://github.com/hikariatama/Hikka/wiki">Wiki</a> for developers' documentation
+Check out <a href="https://github.com/hikariatama/Bampi/wiki">Wiki</a> for developers' documentation
 User docs will be available soon
 <hr>
-<h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/981-consultation-flat.webp" height="54" align="middle"> <a href="https://t.me/hikka_talks">Support</a></h2>
+<h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/981-consultation-flat.webp" height="54" align="middle"> <a href="https://t.me/Bampi_talks">Support</a></h2>
 <hr>
 <h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/541-hand-washing-step-12-flat.webp" height="54" align="middle"> Features</h2>
 <table>

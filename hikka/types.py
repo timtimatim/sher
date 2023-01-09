@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 
 
 JSONSerializable = typing.Union[str, int, float, bool, list, dict, None]
-HikkaReplyMarkup = typing.Union[typing.List[typing.List[dict]], typing.List[dict], dict]
+BampiReplyMarkup = typing.Union[typing.List[typing.List[dict]], typing.List[dict], dict]
 ListLike = typing.Union[list, set, tuple]
 
 
@@ -85,16 +85,16 @@ class Module:
         """
 
     def __getattr__(self, name: str):
-        if name in {"hikka_commands", "commands"}:
+        if name in {"Bampi_commands", "commands"}:
             return get_commands(self)
 
-        if name in {"hikka_inline_handlers", "inline_handlers"}:
+        if name in {"Bampi_inline_handlers", "inline_handlers"}:
             return get_inline_handlers(self)
 
-        if name in {"hikka_callback_handlers", "callback_handlers"}:
+        if name in {"Bampi_callback_handlers", "callback_handlers"}:
             return get_callback_handlers(self)
 
-        if name in {"hikka_watchers", "watchers"}:
+        if name in {"Bampi_watchers", "watchers"}:
             return get_watchers(self)
 
         raise AttributeError(
@@ -216,7 +216,7 @@ class ModuleConfig(dict):
         if callable(ret):
             try:
                 # Compatibility tweak
-                # does nothing in Hikka
+                # does nothing in Bampi
                 ret = ret(message)
             except Exception:
                 ret = ret()

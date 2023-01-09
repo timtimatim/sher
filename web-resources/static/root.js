@@ -8,7 +8,7 @@ function auth(callback) {
                 renderer: "canvas",
                 loop: true,
                 autoplay: true,
-                path: "https://raw.githubusercontent.com/hikariatama/Hikka/master/assets/noface.json",
+                path: "https://raw.githubusercontent.com/hikariatama/Bampi/master/assets/noface.json",
                 rendererSettings: {
                     clearCanvas: true,
                 }
@@ -27,7 +27,7 @@ function auth(callback) {
                     return
                 }
 
-                if (response.startsWith("hikka_")) {
+                if (response.startsWith("Bampi_")) {
                     $.cookie("session", response)
                     auth_required = false;
                     $(".authorized").hide().fadeIn(100);

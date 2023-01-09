@@ -131,11 +131,11 @@ dmypy.json
 
 *__pycache__
 *.pyc
-hikka/api_token.py
-hikka/loaded_modules
+Bampi/api_token.py
+Bampi/loaded_modules
 loaded_modules
-hikka/debug_modules
-hikka*.session*
+Bampi/debug_modules
+Bampi*.session*
 database-*.json
 *.swp
 .setup_complete
@@ -171,4 +171,4 @@ config.json
 vendor/
 Pipfile.lock
 
-hikka.log.*
+Bampi.log.*

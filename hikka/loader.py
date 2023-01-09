@@ -231,7 +231,7 @@ class InfiniteLoop:
 
     def stop(self, *args, **kwargs):
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(
+            _Bampi_client_id_logging_tag = copy.copy(
                 self.module_instance.allmodules.client.tg_id
             )
 
@@ -248,7 +248,7 @@ class InfiniteLoop:
 
     def start(self, *args, **kwargs):
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(
+            _Bampi_client_id_logging_tag = copy.copy(
                 self.module_instance.allmodules.client.tg_id
             )
 
@@ -436,7 +436,7 @@ def tag(*tags, **kwarg_tags):
     @loader.tag("no_commands", "out")
     @loader.tag("no_commands", out=True)
     @loader.tag(only_messages=True)
-    @loader.tag("only_messages", "only_pm", regex=r"^[.] ?hikka$", from_id=659800858)
+    @loader.tag("only_messages", "only_pm", regex=r"^[.] ?Bampi$", from_id=659800858)
 
     💡 These tags can be used directly in `@loader.watcher`:
     @loader.watcher("no_commands", out=True)
@@ -566,10 +566,10 @@ class Modules:
             callback_handlers = {}
             watchers = []
             for module in self.modules:
-                commands.update(module.hikka_commands)
-                inline_handlers.update(module.hikka_inline_handlers)
-                callback_handlers.update(module.hikka_callback_handlers)
-                watchers.extend(module.hikka_watchers.values())
+                commands.update(module.Bampi_commands)
+                inline_handlers.update(module.Bampi_inline_handlers)
+                callback_handlers.update(module.Bampi_callback_handlers)
+                watchers.extend(module.Bampi_watchers.values())
 
             self.commands = commands
             self.inline_handlers = inline_handlers
@@ -635,7 +635,7 @@ class Modules:
         origin: str = "<core>",
     ) -> typing.List[Module]:
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self.client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self.client.tg_id)
 
         loaded = []
 
@@ -675,7 +675,7 @@ class Modules:
     ) -> Module:
         """Register single module from importlib spec"""
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self.client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self.client.tg_id)
 
         module = importlib.util.module_from_spec(spec)
         sys.modules[module_name] = module
@@ -739,14 +739,14 @@ class Modules:
     def register_commands(self, instance: Module):
         """Register commands from instance"""
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self.client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self.client.tg_id)
 
         if instance.__origin__.startswith("<core"):
             self._core_commands += list(
-                map(lambda x: x.lower(), list(instance.hikka_commands))
+                map(lambda x: x.lower(), list(instance.Bampi_commands))
             )
 
-        for _command, cmd in instance.hikka_commands.items():
+        for _command, cmd in instance.Bampi_commands.items():
             # Restrict overwriting core modules' commands
             if (
                 _command.lower() in self._core_commands
@@ -760,13 +760,13 @@ class Modules:
             self.commands.update({_command.lower(): cmd})
 
         for alias, cmd in self.aliases.copy().items():
-            if cmd in instance.hikka_commands:
+            if cmd in instance.Bampi_commands:
                 self.add_alias(alias, cmd)
 
         self.register_inline_stuff(instance)
 
     def register_inline_stuff(self, instance: Module):
-        for name, func in instance.hikka_inline_handlers.copy().items():
+        for name, func in instance.Bampi_inline_handlers.copy().items():
             if name.lower() in self.inline_handlers:
                 if (
                     hasattr(func, "__self__")
@@ -790,7 +790,7 @@ class Modules:
 
             self.inline_handlers.update({name.lower(): func})
 
-        for name, func in instance.hikka_callback_handlers.copy().items():
+        for name, func in instance.Bampi_callback_handlers.copy().items():
             if name.lower() in self.callback_handlers and (
                 hasattr(func, "__self__")
                 and hasattr(self.callback_handlers[name], "__self__")
@@ -806,7 +806,7 @@ class Modules:
             self.callback_handlers.update({name.lower(): func})
 
     def unregister_inline_stuff(self, instance: Module, purpose: str):
-        for name, func in instance.hikka_inline_handlers.copy().items():
+        for name, func in instance.Bampi_inline_handlers.copy().items():
             if name.lower() in self.inline_handlers and (
                 hasattr(func, "__self__")
                 and hasattr(self.inline_handlers[name], "__self__")
@@ -821,7 +821,7 @@ class Modules:
                     purpose,
                 )
 
-        for name, func in instance.hikka_callback_handlers.copy().items():
+        for name, func in instance.Bampi_callback_handlers.copy().items():
             if name.lower() in self.callback_handlers and (
                 hasattr(func, "__self__")
                 and hasattr(self.callback_handlers[name], "__self__")
@@ -839,14 +839,14 @@ class Modules:
     def register_watchers(self, instance: Module):
         """Register watcher from instance"""
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self.client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self.client.tg_id)
 
         for _watcher in self.watchers:
             if _watcher.__self__.__class__.__name__ == instance.__class__.__name__:
                 logger.debug("Removing watcher %s for update", _watcher)
                 self.watchers.remove(_watcher)
 
-        for _watcher in instance.hikka_watchers.values():
+        for _watcher in instance.Bampi_watchers.values():
             self.watchers += [_watcher]
 
     def _lookup(self, modname: str):
@@ -891,9 +891,9 @@ class Modules:
         event: asyncio.Event,
     ):
         self._db.set(
-            "hikka.main",
+            "Bampi.main",
             "declined_joins",
-            list(set(self._db.get("hikka.main", "declined_joins", []) + [channel.id])),
+            list(set(self._db.get("Bampi.main", "declined_joins", []) + [channel.id])),
         )
         event.status = False
         event.set()
@@ -932,7 +932,7 @@ class Modules:
         )
 
         channel = await self.client.get_entity(peer)
-        if channel.id in self._db.get("hikka.main", "declined_joins", []):
+        if channel.id in self._db.get("Bampi.main", "declined_joins", []):
             if assure_joined:
                 raise LoadError(
                     f"You need to join @{channel.username} in order to use this module"
@@ -949,7 +949,7 @@ class Modules:
         if not getattr(channel, "left", True):
             return True
 
-        _module.strings._base_strings["_hikka_internal_request_join"] = (
+        _module.strings._base_strings["_Bampi_internal_request_join"] = (
             f"💫 <b>Module </b><code>{_module.__class__.__name__}</code><b> requested to"
             " join channel <a"
             f" href='https://t.me/{channel.username}'>{utils.escape_html(channel.title)}</a></b>\n\n<b>❓"
@@ -959,7 +959,7 @@ class Modules:
         if not hasattr(_module, "strings_ru"):
             _module.strings_ru = {}
 
-        _module.strings_ru["_hikka_internal_request_join"] = (
+        _module.strings_ru["_Bampi_internal_request_join"] = (
             f"💫 <b>Модуль </b><code>{_module.__class__.__name__}</code><b> запросил"
             " разрешение на вступление в канал <a"
             f" href='https://t.me/{channel.username}'>{utils.escape_html(channel.title)}</a></b>\n\n<b>❓"
@@ -969,7 +969,7 @@ class Modules:
         await self.inline.bot.send_animation(
             self.client.tg_id,
             "https://static.hikari.gay/ab3adf144c94a0883bfe489f4eebc520.gif",
-            caption=_module.strings("_hikka_internal_request_join"),
+            caption=_module.strings("_Bampi_internal_request_join"),
             reply_markup=self.inline.generate_markup(
                 [
                     {
@@ -986,7 +986,7 @@ class Modules:
             ),
         )
 
-        _module.hikka_wait_channel_approve = (
+        _module.Bampi_wait_channel_approve = (
             _module.__class__.__name__,
             channel,
             reason,
@@ -994,7 +994,7 @@ class Modules:
         await event.wait()
 
         with contextlib.suppress(AttributeError):
-            delattr(_module, "hikka_wait_channel_approve")
+            delattr(_module, "Bampi_wait_channel_approve")
 
         if assure_joined and not event.status:
             raise LoadError(
@@ -1004,16 +1004,16 @@ class Modules:
         return event.status
 
     def get_prefix(self) -> str:
-        return self._db.get("hikka.main", "command_prefix", ".")
+        return self._db.get("Bampi.main", "command_prefix", ".")
 
     async def complete_registration(self, instance: Module):
         """Complete registration of instance"""
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self.client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self.client.tg_id)
 
         instance.allclients = self.allclients
         instance.allmodules = self
-        instance.hikka = True
+        instance.Bampi = True
         instance.get = partial(self._get, _owner=instance.__class__.__name__)
         instance.set = partial(self._set, _owner=instance.__class__.__name__)
         instance.pointer = partial(self._pointer, _owner=instance.__class__.__name__)
@@ -1104,11 +1104,11 @@ class Modules:
         code.raise_for_status()
         code = code.text
 
-        if re.search(r"# ?scope: ?hikka_min", code):
+        if re.search(r"# ?scope: ?Bampi_min", code):
             ver = tuple(
                 map(
                     int,
-                    re.search(r"# ?scope: ?hikka_min ((\d+\.){2}\d+)", code)[1].split(
+                    re.search(r"# ?scope: ?Bampi_min ((\d+\.){2}\d+)", code)[1].split(
                         "."
                     ),
                 )
@@ -1117,11 +1117,11 @@ class Modules:
             if version.__version__ < ver:
                 _raise(
                     RuntimeError(
-                        f"Library requires Hikka version {'{}.{}.{}'.format(*ver)}+"
+                        f"Library requires Bampi version {'{}.{}.{}'.format(*ver)}+"
                     )
                 )
 
-        module = f"hikka.libraries.{url.replace('%', '%%').replace('.', '%d')}"
+        module = f"Bampi.libraries.{url.replace('%', '%%').replace('.', '%d')}"
         origin = f"<library {url}>"
 
         spec = importlib.machinery.ModuleSpec(
@@ -1211,7 +1211,7 @@ class Modules:
             all(
                 line.replace(" ", "") != "#scope:no_stats" for line in code.splitlines()
             )
-            and self._db.get("hikka.main", "stats", True)
+            and self._db.get("Bampi.main", "stats", True)
             and url is not None
             and utils.check_url(url)
         ):
@@ -1327,7 +1327,7 @@ class Modules:
     def send_config_one(self, mod: Module, skip_hook: bool = False):
         """Send config to single instance"""
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self.client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self.client.tg_id)
 
         if hasattr(mod, "config"):
             modcfg = self._db.get(
@@ -1410,7 +1410,7 @@ class Modules:
         """
 
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self.client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self.client.tg_id)
 
         if interval < 0.1:
             logger.warning(
@@ -1443,7 +1443,7 @@ class Modules:
         from_dlmod: bool = False,
     ):
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self.client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self.client.tg_id)
 
         mod.inline = self.inline
 
@@ -1514,7 +1514,7 @@ class Modules:
         worked = []
 
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self.client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self.client.tg_id)
 
         for module in self.modules:
             if classname.lower() in (

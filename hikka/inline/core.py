@@ -54,7 +54,7 @@ class InlineManager(
         self._markup_ttl = 60 * 60 * 24
         self.init_complete = False
 
-        self._token = db.get("hikka.inline", "bot_token", False)
+        self._token = db.get("Bampi.inline", "bot_token", False)
 
     async def _cleaner(self):
         """Cleans outdated inline units"""
@@ -72,7 +72,7 @@ class InlineManager(
     ):
         # Get info about user to use it in this class
         self._me = self._client.tg_id
-        self._name = get_display_name(self._client.hikka_me)
+        self._name = get_display_name(self._client.Bampi_me)
 
         if not ignore_token_checks:
             # Assert that token is set to valid, and if not,
@@ -103,9 +103,9 @@ class InlineManager(
 
         # Start the bot in case it can send you messages
         try:
-            m = await self._client.send_message(self.bot_username, "/start hikka init")
+            m = await self._client.send_message(self.bot_username, "/start Bampi init")
         except (InputUserDeactivatedError, ValueError):
-            self._db.set("hikka.inline", "bot_token", None)
+            self._db.set("Bampi.inline", "bot_token", None)
             self._token = False
 
             if not after_break:
@@ -117,7 +117,7 @@ class InlineManager(
             await self._client(UnblockRequest(id=self.bot_username))
             try:
                 m = await self._client.send_message(
-                    self.bot_username, "/start hikka init"
+                    self.bot_username, "/start Bampi init"
                 )
             except Exception:
                 logger.critical("Can't unblock users bot", exc_info=True)

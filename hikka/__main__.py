@@ -13,7 +13,7 @@ if (
     and all(trigger not in os.environ for trigger in {"OKTETO", "DOCKER", "GOORM"})
 ):
     print("🚫" * 15)
-    print("You attempted to run Hikka on behalf of root user")
+    print("You attempted to run Bampi on behalf of root user")
     print("Please, create a new user and restart script")
     print("If this action was intentional, pass --root argument instead")
     print("🚫" * 15)
@@ -47,7 +47,7 @@ def deps(error):
 
 if sys.version_info < (3, 8, 0):
     print("🚫 Error: you must use at least Python version 3.8.0")
-elif __package__ != "hikka":  # In case they did python __main__.py
+elif __package__ != "Bampi":  # In case they did python __main__.py
     print("🚫 Error: you cannot run this as a script; you must execute as a package")
 else:
     try:
@@ -67,7 +67,7 @@ else:
             if tuple(map(int, telethon.__version__.split("."))) < (1, 24, 10):
                 raise ImportError
         except ImportError:
-            print("🔄 Reinstalling Hikka-TL...")
+            print("🔄 Reinstalling Bampi-TL...")
             subprocess.run(
                 [
                     sys.executable,
@@ -91,7 +91,7 @@ else:
                     "-q",
                     "--disable-pip-version-check",
                     "--no-warn-script-location",
-                    "hikka-tl",
+                    "Bampi-tl",
                 ],
                 check=True,
             )
@@ -110,7 +110,7 @@ else:
         deps(e)
 
     if __name__ == "__main__":
-        if "HIKKA_DO_NOT_RESTART" in os.environ:
-            del os.environ["HIKKA_DO_NOT_RESTART"]
+        if "Bampi_DO_NOT_RESTART" in os.environ:
+            del os.environ["Bampi_DO_NOT_RESTART"]
 
-        main.hikka.main()  # Execute main function
+        main.Bampi.main()  # Execute main function

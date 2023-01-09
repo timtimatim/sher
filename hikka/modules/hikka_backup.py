@@ -14,11 +14,11 @@ logger = logging.getLogger(__name__)
 
 
 @loader.tds
-class HikkaBackupMod(loader.Module):
+class BampiBackupMod(loader.Module):
     """Automatic database backup"""
 
     strings = {
-        "name": "HikkaBackup",
+        "name": "BampiBackup",
         "period": (
             "⌚️ <b>Unit «ALPHA»</b> creates database backups periodically. You can"
             " change this behavior later.\n\nPlease, select the periodicity of"
@@ -240,12 +240,12 @@ class HikkaBackupMod(loader.Module):
 
         self._backup_channel, _ = await utils.asset_channel(
             self._client,
-            "hikka-backups",
+            "Bampi-backups",
             "📼 Your database backups will appear there",
             silent=True,
             archive=True,
-            avatar="https://github.com/hikariatama/assets/raw/master/hikka-backups.png",
-            _folder="hikka",
+            avatar="https://github.com/hikariatama/assets/raw/master/Bampi-backups.png",
+            _folder="Bampi",
         )
 
         self.handler.start()
@@ -311,7 +311,7 @@ class HikkaBackupMod(loader.Module):
             )
 
             backup = io.BytesIO(json.dumps(self._db).encode("utf-8"))
-            backup.name = "hikka-db-backup-{}.json".format(
+            backup.name = "Bampi-db-backup-{}.json".format(
                 getattr(datetime, "datetime", datetime).now().strftime("%d-%m-%Y-%H-%M")
             )
 
@@ -320,5 +320,5 @@ class HikkaBackupMod(loader.Module):
         except loader.StopLoop:
             raise
         except Exception:
-            logger.exception("HikkaBackup failed")
+            logger.exception("BampiBackup failed")
             await asyncio.sleep(60)

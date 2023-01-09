@@ -40,8 +40,8 @@ class TokenObtainment(InlineUnit):
             await m.delete()
             await r.delete()
 
-            if self._db.get("hikka.inline", "custom_bot", False):
-                username = self._db.get("hikka.inline", "custom_bot").strip("@")
+            if self._db.get("Bampi.inline", "custom_bot", False):
+                username = self._db.get("Bampi.inline", "custom_bot").strip("@")
                 username = f"@{username}"
                 try:
                     await self._client.get_entity(username)
@@ -145,16 +145,16 @@ class TokenObtainment(InlineUnit):
             for row in r.reply_markup.rows:
                 for button in row.buttons:
                     if self._db.get(
-                        "hikka.inline", "custom_bot", False
+                        "Bampi.inline", "custom_bot", False
                     ) and self._db.get(
-                        "hikka.inline", "custom_bot", False
+                        "Bampi.inline", "custom_bot", False
                     ) != button.text.strip(
                         "@"
                     ):
                         continue
 
                     if not self._db.get(
-                        "hikka.inline",
+                        "Bampi.inline",
                         "custom_bot",
                         False,
                     ) and not re.search(r"@bampi_[0-9a-zA-Z]{6}_bot", button.text):
@@ -188,7 +188,7 @@ class TokenObtainment(InlineUnit):
                     token = r.raw_text.splitlines()[1]
 
                     # Save token to database, now this bot is ready-to-use
-                    self._db.set("hikka.inline", "bot_token", token)
+                    self._db.set("Bampi.inline", "bot_token", token)
                     self._token = token
 
                     await m.delete()
@@ -200,7 +200,7 @@ class TokenObtainment(InlineUnit):
                     for msg in [
                         "/setinline",
                         button.text,
-                        "user@hikka:~$",
+                        "user@Bampi:~$",
                         "/setinlinefeedback",
                         button.text,
                         "Enabled",
@@ -253,7 +253,7 @@ class TokenObtainment(InlineUnit):
             await self._stop()
             logger.error("Got polling conflict. Attempting token revocation...")
 
-        self._db.set("hikka.inline", "bot_token", None)
+        self._db.set("Bampi.inline", "bot_token", None)
         self._token = None
         if already_initialised:
             asyncio.ensure_future(self._reassert_token())

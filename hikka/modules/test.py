@@ -36,7 +36,7 @@ class TestMod(loader.Module):
         "logs_caption": (
             "<emoji document_id=5188377234380954537>🌘</emoji> <b>Bampi logs with"
             " verbosity </b><code>{}</code>\n\n<emoji"
-            " document_id=5454390891466726015>👋</emoji> <b>Hikka version:"
+            " document_id=5454390891466726015>👋</emoji> <b>Bampi version:"
             " {}.{}.{}</b>{}\n<emoji document_id=6321050180095313397>⏱</emoji>"
             " <b>Uptime: {}</b>\n<b>{}</b>\n\n<b>{} NoNick</b>\n<b>{} Grep</b>\n<b>{}"
             " InlineLogs</b>"
@@ -88,7 +88,7 @@ class TestMod(loader.Module):
         "logs_caption": (
             "<emoji document_id=5188377234380954537>🌘</emoji> <b>Логи Bampi уровня"
             " </b><code>{}</code>\n\n<emoji document_id=5454390891466726015>👋</emoji>"
-            " <b>Версия Hikka: {}.{}.{}</b>{}\n<emoji"
+            " <b>Версия Bampi: {}.{}.{}</b>{}\n<emoji"
             " document_id=6321050180095313397>⏱</emoji> <b>Uptime:"
             " {}</b>\n<b>{}</b>\n\n<b>{} NoNick</b>\n<b>{} Grep</b>\n<b>{}"
             " InlineLogs</b>"
@@ -211,11 +211,11 @@ class TestMod(loader.Module):
             "🚫 <b>Geben Sie die Protokollebene als Zahl oder Zeichenfolge an</b>"
         ),
         "no_logs": "ℹ️ <b>Du hast kein Protokollnachrichten des {} Ebene.</b>",
-        "logs_filename": "hikka-logs.txt",
+        "logs_filename": "Bampi-logs.txt",
         "logs_caption": (
-            "<emoji document_id=5188377234380954537>🌘</emoji> <b>Hikka-Level-Protokolle"
+            "<emoji document_id=5188377234380954537>🌘</emoji> <b>Bampi-Level-Protokolle"
             " </b><code>{}</code>\n\n<emoji document_id=5454390891466726015>👋</emoji>"
-            " <b>Hikka-Version: {}.{}.{}</b>{}\n<Emoji"
+            " <b>Bampi-Version: {}.{}.{}</b>{}\n<Emoji"
             "document_id=6321050180095313397>⏱</emoji> <b>Verfügbarkeit:"
             " {}</b>\n<b>{}</b>\n\n<b>{} NoNick</b>\n<b>{} Grep</b>\n<b>{ }"
             "InlineLogs</b>"
@@ -279,11 +279,11 @@ class TestMod(loader.Module):
     strings_uz = {
         "set_loglevel": "🚫 <b>Log darajasini raqam yoki satr sifatida ko'rsating</b>",
         "no_logs": "ℹ️ <b>Siz {} darajadagi hech qanday loglaringiz yo'q.</b>",
-        "logs_filename": "hikka-logs.txt",
+        "logs_filename": "Bampi-logs.txt",
         "logs_caption": (
-            "<emoji document_id=5188377234380954537>🌘</emoji> <b>Hikka Loglari"
+            "<emoji document_id=5188377234380954537>🌘</emoji> <b>Bampi Loglari"
             " </b><code>{}</code>\n\n<emoji document_id=5454390891466726015>👋</emoji>"
-            " <b>Hikka-versiyasi: {}.{}.{}</b>{}\n<Emoji"
+            " <b>Bampi-versiyasi: {}.{}.{}</b>{}\n<Emoji"
             "document_id=6321050180095313397>⏱</emoji> <b>Mavjudligi:"
             " {}</b>\n<b>{}</b>\n\n<b>{} NoNick</b>\n<b>{} Grep</b>\n<b>{ }"
             "InlineLogs</b>"
@@ -343,11 +343,11 @@ class TestMod(loader.Module):
             "🚫 <b>Lütfen günlük seviyesini sayı veya dize olarak belirtin</b>"
         ),
         "no_logs": "ℹ️ <b>Hiçbir {} seviyesindeki günlük bulunmuyor.</b>",
-        "logs_filename": "hikka-logs.txt",
+        "logs_filename": "Bampi-logs.txt",
         "logs_caption": (
-            "<emoji document_id=5188377234380954537>🌘</emoji> <b>Hikka Günlükleri"
+            "<emoji document_id=5188377234380954537>🌘</emoji> <b>Bampi Günlükleri"
             " </b><code>{}</code>\n\n<emoji document_id=5454390891466726015>👋</emoji>"
-            " <b>Hikka versiyası: {}.{}.{}</b>{}\n<Emoji"
+            " <b>Bampi versiyası: {}.{}.{}</b>{}\n<Emoji"
             "document_id=6321050180095313397>⏱</emoji> <b>Süre:"
             " {}</b>\n<b>{}</b>\n\n<b>{} NoNick</b>\n<b>{} Grep</b>\n<b>{ }"
             "InlineLogs</b>"
@@ -409,11 +409,11 @@ class TestMod(loader.Module):
             "🚫 <b>कृपया लॉग स्तर को संख्या या स्ट्रिंग के रूप में निर्दिष्ट करें</b>"
         ),
         "no_logs": "ℹ️ <b>कोई {} स्तर के लॉग नहीं मिला।</b>",
-        "logs_filename": "hikka-logs.txt",
+        "logs_filename": "Bampi-logs.txt",
         "logs_caption": (
-            "<emoji document_id=5188377234380954537>🌘</emoji> <b>Hikka लॉग</b>"
+            "<emoji document_id=5188377234380954537>🌘</emoji> <b>Bampi लॉग</b>"
             " </code>\n\n<emoji document_id=5454390891466726015>👋</emoji>"
-            " <b>Hikka संस्करण: {}.{}.{}</b>{}\n<Emoji"
+            " <b>Bampi संस्करण: {}.{}.{}</b>{}\n<Emoji"
             "document_id=6321050180095313397>⏱</emoji> <b>वेळ:"
             " {}</b>\n<b>{}</b>\n\n<b>{} NoNick</b>\n<b>{} Grep</b>\n<b>{ }"
             "InlineLogs</b>"
@@ -647,11 +647,11 @@ class TestMod(loader.Module):
             loader.ConfigValue(
                 "force_send_all",
                 False,
-                "⚠️ Do not touch, if you don't know what it does!\nBy default, Hikka"
+                "⚠️ Do not touch, if you don't know what it does!\nBy default, Bampi"
                 " will try to determine, which client caused logs. E.g. there is a"
                 " module TestModule installed on Client1 and TestModule2 on Client2. By"
                 " default, Client2 will get logs from TestModule2, and Client1 will get"
-                " logs from TestModule. If this option is enabled, Hikka will send all"
+                " logs from TestModule. If this option is enabled, Bampi will send all"
                 " logs to Client1 and Client2, even if it is not the one that caused"
                 " the log.",
                 validator=loader.validators.Boolean(),
@@ -793,14 +793,14 @@ class TestMod(loader.Module):
                     )
 
                     try:
-                        delattr(module, "hikka_debug")
+                        delattr(module, "Bampi_debug")
                     except AttributeError:
                         pass
 
                     await utils.answer(message, self.strings("debugging_disabled"))
                     return
 
-                module.hikka_debug = True
+                module.Bampi_debug = True
                 instance = module
                 break
 
@@ -963,22 +963,22 @@ class TestMod(loader.Module):
 
             return
 
-        if btoken := self._db.get("hikka.inline", "bot_token", False):
+        if btoken := self._db.get("Bampi.inline", "bot_token", False):
             logs = logs.replace(
                 btoken,
                 f'{btoken.split(":")[0]}:***************************',
             )
 
-        if hikka_token := self._db.get("HikkaDL", "token", False):
+        if Bampi_token := self._db.get("BampiDL", "token", False):
             logs = logs.replace(
-                hikka_token,
-                f'{hikka_token.split("_")[0]}_********************************',
+                Bampi_token,
+                f'{Bampi_token.split("_")[0]}_********************************',
             )
 
-        if hikka_token := self._db.get("Kirito", "token", False):
+        if Bampi_token := self._db.get("Kirito", "token", False):
             logs = logs.replace(
-                hikka_token,
-                f'{hikka_token.split("_")[0]}_********************************',
+                Bampi_token,
+                f'{Bampi_token.split("_")[0]}_********************************',
             )
 
         if os.environ.get("DATABASE_URL"):
@@ -993,9 +993,9 @@ class TestMod(loader.Module):
                 "postgre://**************************",
             )
 
-        if os.environ.get("hikka_session"):
+        if os.environ.get("Bampi_session"):
             logs = logs.replace(
-                os.environ.get("hikka_session"),
+                os.environ.get("Bampi_session"),
                 "StringSession(**************************)",
             )
 
@@ -1007,7 +1007,7 @@ class TestMod(loader.Module):
         other = (
             *main.__version__,
             " <i><a"
-            f' href="https://github.com/hikariatama/Hikka/commit/{ghash}">({ghash[:8]})</a></i>'
+            f' href="https://github.com/hikariatama/Bampi/commit/{ghash}">({ghash[:8]})</a></i>'
             if ghash
             else "",
             utils.formatted_uptime(),
@@ -1089,8 +1089,8 @@ class TestMod(loader.Module):
     async def client_ready(self):
         chat, _ = await utils.asset_channel(
             self._client,
-            "hikka-logs",
-            "🌘 Your Hikka logs will appear in this chat",
+            "Bampi-logs",
+            "🌘 Your Bampi logs will appear in this chat",
             silent=True,
             invite_bot=True,
             avatar="https://cloud4box.com/wp-content/uploads/2021/09/logi-i-seo.png",

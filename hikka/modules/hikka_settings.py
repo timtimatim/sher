@@ -49,11 +49,11 @@ def restart(*argv):
 
 
 @loader.tds
-class HikkaSettingsMod(loader.Module):
-    """Advanced settings for Hikka Userbot"""
+class BampiSettingsMod(loader.Module):
+    """Advanced settings for Bampi Userbot"""
 
     strings = {
-        "name": "HikkaSettings",
+        "name": "BampiSettings",
         "watchers": (
             "<emoji document_id=5424885441100782420>👀</emoji>"
             " <b>Watchers:</b>\n\n<b>{}</b>"
@@ -110,7 +110,7 @@ class HikkaSettingsMod(loader.Module):
         "cmd404": (
             "<emoji document_id=5469791106591890404>🪄</emoji> <b>Command not found</b>"
         ),
-        "inline_settings": "⚙️ <b>Here you can configure your Hikka settings</b>",
+        "inline_settings": "⚙️ <b>Here you can configure your Bampi settings</b>",
         "confirm_update": (
             "🧭 <b>Please, confirm that you want to update. Your userbot will be"
             " restarted</b>"
@@ -133,7 +133,7 @@ class HikkaSettingsMod(loader.Module):
         ),
         "nonick_warning": (
             "Warning! You enabled NoNick with default prefix! "
-            "You may get muted in Hikka chats. Change prefix or "
+            "You may get muted in Bampi chats. Change prefix or "
             "disable NoNick!"
         ),
         "reply_required": (
@@ -141,12 +141,12 @@ class HikkaSettingsMod(loader.Module):
             " of user, which needs to be added to NoNick</b>"
         ),
         "deauth_confirm": (
-            "⚠️ <b>This action will fully remove Hikka from this account and can't be"
-            " reverted!</b>\n\n<i>- Hikka chats will be removed\n- Session will be"
-            " terminated and removed\n- Hikka inline bot will be removed</i>"
+            "⚠️ <b>This action will fully remove Bampi from this account and can't be"
+            " reverted!</b>\n\n<i>- Bampi chats will be removed\n- Session will be"
+            " terminated and removed\n- Bampi inline bot will be removed</i>"
         ),
         "deauth_confirm_step2": (
-            "⚠️ <b>Are you really sure you want to delete Hikka?</b>"
+            "⚠️ <b>Are you really sure you want to delete Bampi?</b>"
         ),
         "deauth_yes": "I'm sure",
         "deauth_no_1": "I'm not sure",
@@ -154,9 +154,9 @@ class HikkaSettingsMod(loader.Module):
         "deauth_no_3": "I'm struggling to answer",
         "deauth_cancel": "🚫 Cancel",
         "deauth_confirm_btn": "😢 Delete",
-        "uninstall": "😢 <b>Uninstalling Hikka...</b>",
+        "uninstall": "😢 <b>Uninstalling Bampi...</b>",
         "uninstalled": (
-            "😢 <b>Hikka uninstalled. Web interface is still active, you can add another"
+            "😢 <b>Bampi uninstalled. Web interface is still active, you can add another"
             " account</b>"
         ),
         "logs_cleared": "🗑 <b>Logs cleared</b>",
@@ -177,23 +177,23 @@ class HikkaSettingsMod(loader.Module):
             " show...</b>"
         ),
         "privacy_leak": (
-            "⚠️ <b>This command gives access to your Hikka web interface. It's not"
+            "⚠️ <b>This command gives access to your Bampi web interface. It's not"
             " recommended to run it in public group chats. Consider using it in <a"
             " href='tg://openmessage?user_id={}'>Saved messages</a>. Type"
             " </b><code>{}proxypass force_insecure</code><b> to ignore this warning</b>"
         ),
         "privacy_leak_nowarn": (
-            "⚠️ <b>This command gives access to your Hikka web interface. It's not"
+            "⚠️ <b>This command gives access to your Bampi web interface. It's not"
             " recommended to run it in public group chats. Consider using it in <a"
             " href='tg://openmessage?user_id={}'>Saved messages</a>.</b>"
         ),
-        "opening_tunnel": "🔁 <b>Opening tunnel to Hikka web interface...</b>",
+        "opening_tunnel": "🔁 <b>Opening tunnel to Bampi web interface...</b>",
         "tunnel_opened": "🎉 <b>Tunnel opened. This link is valid for about 1 hour</b>",
         "web_btn": "🌍 Web interface",
         "btn_yes": "🚸 Open anyway",
         "btn_no": "🔻 Cancel",
         "lavhost_web": (
-            "✌️ <b>This link leads to your Hikka web interface on lavHost</b>\n\n<i>💡"
+            "✌️ <b>This link leads to your Bampi web interface on lavHost</b>\n\n<i>💡"
             " You'll need to authorize using lavHost credentials, specified on"
             " registration</i>"
         ),
@@ -237,7 +237,7 @@ class HikkaSettingsMod(loader.Module):
         "cmd404": (
             "<emoji document_id=5469791106591890404>🪄</emoji> <b>Команда не найдена</b>"
         ),
-        "inline_settings": "⚙️ <b>Здесь можно управлять настройками Hikka</b>",
+        "inline_settings": "⚙️ <b>Здесь можно управлять настройками Bampi</b>",
         "confirm_update": "🧭 <b>Подтвердите обновление. Юзербот будет перезагружен</b>",
         "confirm_restart": "🔄 <b>Подтвердите перезагрузку</b>",
         "suggest_fs": "✅ Предлагать сохранение модулей",
@@ -255,10 +255,10 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5447207618793708263>🚫</emoji> <b>Эту команду нужно"
             " выполнять в чате</b>"
         ),
-        "_cls_doc": "Дополнительные настройки Hikka",
+        "_cls_doc": "Дополнительные настройки Bampi",
         "nonick_warning": (
             "Внимание! Ты включил NoNick со стандартным префиксом! "
-            "Тебя могут замьютить в чатах Hikka. Измени префикс или "
+            "Тебя могут замьютить в чатах Bampi. Измени префикс или "
             "отключи глобальный NoNick!"
         ),
         "reply_required": (
@@ -266,20 +266,20 @@ class HikkaSettingsMod(loader.Module):
             " пользователя, для которого нужно включить NoNick</b>"
         ),
         "deauth_confirm": (
-            "⚠️ <b>Это действие полностью удалит Hikka с этого аккаунта! Его нельзя"
-            " отменить</b>\n\n<i>- Все чаты, связанные с Hikka будут удалены\n- Сессия"
-            " Hikka будет сброшена\n- Инлайн бот Hikka будет удален</i>"
+            "⚠️ <b>Это действие полностью удалит Bampi с этого аккаунта! Его нельзя"
+            " отменить</b>\n\n<i>- Все чаты, связанные с Bampi будут удалены\n- Сессия"
+            " Bampi будет сброшена\n- Инлайн бот Bampi будет удален</i>"
         ),
-        "deauth_confirm_step2": "⚠️ <b>Ты точно уверен, что хочешь удалить Hikka?</b>",
+        "deauth_confirm_step2": "⚠️ <b>Ты точно уверен, что хочешь удалить Bampi?</b>",
         "deauth_yes": "Я уверен",
         "deauth_no_1": "Я не уверен",
         "deauth_no_2": "Не точно",
         "deauth_no_3": "Нет",
         "deauth_cancel": "🚫 Отмена",
         "deauth_confirm_btn": "😢 Удалить",
-        "uninstall": "😢 <b>Удаляю Hikka...</b>",
+        "uninstall": "😢 <b>Удаляю Bampi...</b>",
         "uninstalled": (
-            "😢 <b>Hikka удалена. Веб-интерфейс все еще активен, можно добавить другие"
+            "😢 <b>Bampi удалена. Веб-интерфейс все еще активен, можно добавить другие"
             " аккаунты!</b>"
         ),
         "logs_cleared": "🗑 <b>Логи очищены</b>",
@@ -300,18 +300,18 @@ class HikkaSettingsMod(loader.Module):
             " показывать...</b>"
         ),
         "privacy_leak": (
-            "⚠️ <b>Эта команда дает доступ к веб-интерфейсу Hikka. Ее выполнение в"
+            "⚠️ <b>Эта команда дает доступ к веб-интерфейсу Bampi. Ее выполнение в"
             " публичных чатах является угрозой безопасности. Предпочтительно выполнять"
             " ее в <a href='tg://openmessage?user_id={}'>Избранных сообщениях</a>."
             " Выполни </b><code>{}proxypass force_insecure</code><b> чтобы отключить"
             " это предупреждение</b>"
         ),
         "privacy_leak_nowarn": (
-            "⚠️ <b>Эта команда дает доступ к веб-интерфейсу Hikka. Ее выполнение в"
+            "⚠️ <b>Эта команда дает доступ к веб-интерфейсу Bampi. Ее выполнение в"
             " публичных чатах является угрозой безопасности. Предпочтительно выполнять"
             " ее в <a href='tg://openmessage?user_id={}'>Избранных сообщениях</a>.</b>"
         ),
-        "opening_tunnel": "🔁 <b>Открываю тоннель к веб-интерфейсу Hikka...</b>",
+        "opening_tunnel": "🔁 <b>Открываю тоннель к веб-интерфейсу Bampi...</b>",
         "tunnel_opened": (
             "🎉 <b>Тоннель открыт. Эта ссылка будет активна не более часа</b>"
         ),
@@ -319,7 +319,7 @@ class HikkaSettingsMod(loader.Module):
         "btn_yes": "🚸 Все равно открыть",
         "btn_no": "🔻 Закрыть",
         "lavhost_web": (
-            "✌️ <b>По этой ссылке ты попадешь в веб-интерфейс Hikka на"
+            "✌️ <b>По этой ссылке ты попадешь в веб-интерфейс Bampi на"
             " lavHost</b>\n\n<i>💡 Тебе нужно будет авторизоваться, используя данные,"
             " указанные при настройке lavHost</i>"
         ),
@@ -365,7 +365,7 @@ class HikkaSettingsMod(loader.Module):
             " gefunden</b>"
         ),
         "inline_settings": (
-            "⚙️ <b>Hier können Sie Ihre Hikka-Einstellungen verwalten</b>"
+            "⚙️ <b>Hier können Sie Ihre Bampi-Einstellungen verwalten</b>"
         ),
         "confirm_update": (
             "🧭 <b>Bestätige das Update. Der Userbot wird neu gestartet</b>"
@@ -386,10 +386,10 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5447207618793708263>🚫</emoji> <b>Dieser Befehl benötigt"
             "im Chat ausführen</b>"
         ),
-        "_cls_doc": "Erweiterte Hikka-Einstellungen",
+        "_cls_doc": "Erweiterte Bampi-Einstellungen",
         "nonick_warning": (
             "Achtung! Sie haben NoNick mit dem Standard-Präfix eingefügt!Sie sind"
-            " möglicherweise in Hikka-Chats stummgeschaltet. Ändern Sie das Präfix oder"
+            " möglicherweise in Bampi-Chats stummgeschaltet. Ändern Sie das Präfix oder"
             " schalten Sie das globale NoNick aus!"
         ),
         "reply_required": (
@@ -397,13 +397,13 @@ class HikkaSettingsMod(loader.Module):
             " antwortenBenutzer soll NoNick aktivieren</b>"
         ),
         "deauth_confirm": (
-            "⚠️ <b>Diese Aktion wird Hikka vollständig von diesem Konto entfernen! Er"
-            " kann nichtAbbrechen</b>\n\n<i>- Alle Hikka-bezogenen Chats werden"
-            " gelöscht\n- SitzungHikka wird zurückgesetzt\n- Hikkas Inline-Bot wird"
+            "⚠️ <b>Diese Aktion wird Bampi vollständig von diesem Konto entfernen! Er"
+            " kann nichtAbbrechen</b>\n\n<i>- Alle Bampi-bezogenen Chats werden"
+            " gelöscht\n- SitzungBampi wird zurückgesetzt\n- Bampis Inline-Bot wird"
             " gelöscht</i>"
         ),
         "deauth_confirm_step2": (
-            "⚠️ <b>Sind Sie sicher, dass Sie Hikka deinstallieren möchten?</b>"
+            "⚠️ <b>Sind Sie sicher, dass Sie Bampi deinstallieren möchten?</b>"
         ),
         "deauth_yes": "Ich bin sicher",
         "deauth_no_1": "Ich bin mir nicht sicher",
@@ -411,9 +411,9 @@ class HikkaSettingsMod(loader.Module):
         "deauth_no_3": "Nein",
         "deauth_cancel": "🚫 Abbrechen",
         "deauth_confirm_btn": "😢 Löschen",
-        "uninstall": "😢 <b>Hikka wird deinstalliert...</b>",
+        "uninstall": "😢 <b>Bampi wird deinstalliert...</b>",
         "uninstalled": (
-            "😢 <b>Hikka wurde entfernt. Die Weboberfläche ist noch aktiv, andere können"
+            "😢 <b>Bampi wurde entfernt. Die Weboberfläche ist noch aktiv, andere können"
             " hinzugefügt werdenKonten!</b>"
         ),
         "logs_cleared": "🗑 <b>Protokolle gelöscht</b>",
@@ -433,19 +433,19 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5427052514094619126>🤷‍♀️</emoji> <b>Nichtszeigen...</b>"
         ),
         "privacy_leak": (
-            "⚠️ <b>Dieser Befehl ermöglicht den Zugriff auf die Hikka-Weboberfläche."
+            "⚠️ <b>Dieser Befehl ermöglicht den Zugriff auf die Bampi-Weboberfläche."
             " Seine Ausführung inÖffentliche Chats sind ein Sicherheitsrisiko. Am"
             " besten durchführen es in <a href='tg://openmessage?user_id={}'>Empfohlene"
             " Nachrichten</a>.Führen Sie </b><code>{}proxypass force_insecure</code><b>"
             " zum Deaktivieren ausDies ist eine Warnung</b>"
         ),
         "privacy_leak_nowarn": (
-            "⚠️ <b>Dieser Befehl ermöglicht den Zugriff auf die Hikka-Weboberfläche."
+            "⚠️ <b>Dieser Befehl ermöglicht den Zugriff auf die Bampi-Weboberfläche."
             " Seine Ausführung inÖffentliche Chats sind ein Sicherheitsrisiko. Am"
             " besten durchführen sie in <a"
             " href='tg://openmessage?user_id={}'>Empfohlene Nachrichten</a>.</b>"
         ),
-        "opening_tunnel": "🔁 <b>Öffne einen Tunnel zur Hikka-Weboberfläche...</b>",
+        "opening_tunnel": "🔁 <b>Öffne einen Tunnel zur Bampi-Weboberfläche...</b>",
         "tunnel_opened": (
             "🎉 <b>Der Tunnel ist offen. Dieser Link ist nicht länger als eine Stunde"
             " aktiv</b>"
@@ -454,7 +454,7 @@ class HikkaSettingsMod(loader.Module):
         "btn_yes": "🚸 Trotzdem geöffnet",
         "btn_no": "🔻Schließen",
         "lavhost_web": (
-            "✌️ <b>Dieser Link führt Sie zur Hikka-Weboberfläche auf"
+            "✌️ <b>Dieser Link führt Sie zur Bampi-Weboberfläche auf"
             " lavHost</b>\n\n<i>💡 Sie müssen sich mit Ihren Zugangsdaten anmelden,"
             "beim Setzen von lavHost angegeben</i>"
         ),
@@ -498,7 +498,7 @@ class HikkaSettingsMod(loader.Module):
         "cmd404": (
             "<emoji document_id=5469791106591890404>🪄</emoji> <b>Komut bulunamadı</b>"
         ),
-        "inline_settings": "⚙️ <b>Buradan Hikka ayarlarınızı yönetebilirsiniz</b>",
+        "inline_settings": "⚙️ <b>Buradan Bampi ayarlarınızı yönetebilirsiniz</b>",
         "confirm_update": (
             "🧭 <b>Güncellemeyi onaylayın. Kullanıcı robotu yeniden başlatılacak</b>"
         ),
@@ -518,10 +518,10 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5447207618793708263>🚫</emoji> <b>Bu komut gerekiyor"
             " sohbette yürüt</b>"
         ),
-        "_cls_doc": "Gelişmiş Hikka Ayarları",
+        "_cls_doc": "Gelişmiş Bampi Ayarları",
         "nonick_warning": (
             "Dikkat! NoNick'i standart önekle eklediniz!"
-            "Hikka sohbetlerinde sesiniz kapatılmış olabilir. Ön eki değiştirin veya "
+            "Bampi sohbetlerinde sesiniz kapatılmış olabilir. Ön eki değiştirin veya "
             "küresel NoNick'i kapatın!"
         ),
         "reply_required": (
@@ -529,12 +529,12 @@ class HikkaSettingsMod(loader.Module):
             "NoNick'i etkinleştirmek için kullanıcı</b>"
         ),
         "deauth_confirm": (
-            "⚠️ <b>Bu işlem Hikka'yı bu hesaptan tamamen kaldıracak! Yapamaz"
-            "iptal</b>\n\n<i>- Hikka ile ilgili tüm sohbetler silinecek\n- Oturum"
-            " Hikka sıfırlanacak\n- Hikka'nın satır içi botu silinecek</i>"
+            "⚠️ <b>Bu işlem Bampi'yı bu hesaptan tamamen kaldıracak! Yapamaz"
+            "iptal</b>\n\n<i>- Bampi ile ilgili tüm sohbetler silinecek\n- Oturum"
+            " Bampi sıfırlanacak\n- Bampi'nın satır içi botu silinecek</i>"
         ),
         "deauth_confirm_step2": (
-            "⚠️ <b>Hikka'yı kaldırmak istediğinizden emin misiniz?</b>"
+            "⚠️ <b>Bampi'yı kaldırmak istediğinizden emin misiniz?</b>"
         ),
         "deauth_yes": "Eminim",
         "deauth_no_1": "Emin değilim",
@@ -542,9 +542,9 @@ class HikkaSettingsMod(loader.Module):
         "deauth_no_3": "Hayır",
         "deauth_cancel": "🚫 İptal",
         "deauth_confirm_btn": "😢 Sil",
-        "uninstall": "😢 <b>Hikka'yı Kaldırılıyor...</b>",
+        "uninstall": "😢 <b>Bampi'yı Kaldırılıyor...</b>",
         "uninstalled": (
-            "😢 <b>Hikka kaldırıldı. Web arayüzü hala aktif, başkaları eklenebilir"
+            "😢 <b>Bampi kaldırıldı. Web arayüzü hala aktif, başkaları eklenebilir"
             "hesaplar!</b>"
         ),
         "logs_cleared": "🗑 <b>Günlükler temizlendi</b>",
@@ -565,14 +565,14 @@ class HikkaSettingsMod(loader.Module):
             "göster...</b>"
         ),
         "privacy_leak": (
-            "⚠️ <b>Bu komut, Hikka web arayüzüne erişim sağlar. YürütülmesiGenel"
+            "⚠️ <b>Bu komut, Bampi web arayüzüne erişim sağlar. YürütülmesiGenel"
             " sohbetler bir güvenlik riskidir. Tercihen gerçekleştirin <a"
             " href='tg://openmessage?user_id={}'>Öne Çıkan Mesajlar</a> içinde.Devre"
             " dışı bırakmak için </b><code>{}proxypass force_insecure</code><b>"
             " çalıştırınbu bir uyarıdır</b>"
         ),
         "privacy_leak_nowarn": (
-            "⚠️ <b>Bu komut, Hikka web arayüzüne erişim sağlar. Yürütülmesi"
+            "⚠️ <b>Bu komut, Bampi web arayüzüne erişim sağlar. Yürütülmesi"
             "Genel sohbetler bir güvenlik riskidir. Tercihen gerçekleştirin"
             " onu <a href='tg://openmessage?user_id={}'>Öne Çıkan Mesajlar</a>'da.</b>"
         ),
@@ -615,7 +615,7 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5469791106591890404>🪄</emoji> <b>Buyruq topilmadi</b>"
         ),
         "inline_settings": (
-            "⚙️ <b>Bu yerda siz Hikka sozlamalaringizni boshqarishingiz mumkin</b>"
+            "⚙️ <b>Bu yerda siz Bampi sozlamalaringizni boshqarishingiz mumkin</b>"
         ),
         "confirm_update": (
             "🧭 <b>Yangilanishni tasdiqlang. Userbot qayta ishga tushiriladi</b>"
@@ -636,9 +636,9 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5447207618793708263>🚫</emoji> <b>Bu buyruq kerak"
             " chatda bajarish</b>"
         ),
-        "_cls_doc": "Kengaytirilgan Hikka sozlamalari",
+        "_cls_doc": "Kengaytirilgan Bampi sozlamalari",
         "nonick_warning": (
-            "Diqqat! NoNickni standart prefiks bilan kiritdingiz!Hikka chatlarida"
+            "Diqqat! NoNickni standart prefiks bilan kiritdingiz!Bampi chatlarida"
             " ovozingiz o'chirilgan bo'lishi mumkin. Prefiksni o'zgartiring yoki global"
             " NoNickni o'chiring!"
         ),
@@ -647,13 +647,13 @@ class HikkaSettingsMod(loader.Module):
             "foydalanuvchi NoNick</b>ni yoqish uchun"
         ),
         "deauth_confirm": (
-            "⚠️ <b>Bu amal Hikkani ushbu hisobdan butunlay olib tashlaydi! U qila"
-            " olmaydiBekor qilish</b>\n\n<i>- Hikka bilan bog'liq barcha chatlar"
-            " o'chiriladi\n- Sessiya Hikka qayta tiklanadi\n- Hikkaning ichki boti"
+            "⚠️ <b>Bu amal Bampini ushbu hisobdan butunlay olib tashlaydi! U qila"
+            " olmaydiBekor qilish</b>\n\n<i>- Bampi bilan bog'liq barcha chatlar"
+            " o'chiriladi\n- Sessiya Bampi qayta tiklanadi\n- Bampining ichki boti"
             " o'chiriladi</i>"
         ),
         "deauth_confirm_step2": (
-            "⚠️ <b>Haqiqatan ham Hikkani oʻchirib tashlamoqchimisiz?</b>"
+            "⚠️ <b>Haqiqatan ham Bampini oʻchirib tashlamoqchimisiz?</b>"
         ),
         "deauth_yes": "Ishonchim komil",
         "deauth_no_1": "Imonim yo'q",
@@ -661,9 +661,9 @@ class HikkaSettingsMod(loader.Module):
         "deauth_no_3": "Yo'q",
         "deauth_cancel": "🚫 Bekor qilish",
         "deauth_confirm_btn": "😢 O'chirish",
-        "uninstall": "😢 <b>Hikka o'chirilmoqda...</b>",
+        "uninstall": "😢 <b>Bampi o'chirilmoqda...</b>",
         "uninstalled": (
-            "😢 <b>Hikka oʻchirildi. Veb-interfeys hali ham faol, boshqalarni qoʻshish"
+            "😢 <b>Bampi oʻchirildi. Veb-interfeys hali ham faol, boshqalarni qoʻshish"
             " mumkinhisoblar!</b>"
         ),
         "logs_cleared": "🗑 <b>Jurnallar tozalandi</b>",
@@ -684,18 +684,18 @@ class HikkaSettingsMod(loader.Module):
             "ko'rsatish...</b>"
         ),
         "privacy_leak": (
-            "⚠️ <b>Ushbu buyruq Hikka veb-interfeysiga kirish imkonini beradi. Uning"
+            "⚠️ <b>Ushbu buyruq Bampi veb-interfeysiga kirish imkonini beradi. Uning"
             " bajarilishiOmmaviy chatlar xavfsizlikka xavf tug'diradi. Afzal bajaring"
             " Bu <a href='tg://openmessage?user_id={}'>Taniqli xabarlar</a>da.O'chirish"
             " uchun </b><code>{}proxypass force_insecure</code><b>ni ishga tushiring bu"
             " ogohlantirish</b>"
         ),
         "privacy_leak_nowarn": (
-            "⚠️ <b>Ushbu buyruq Hikka veb-interfeysiga kirish imkonini beradi. Uning"
+            "⚠️ <b>Ushbu buyruq Bampi veb-interfeysiga kirish imkonini beradi. Uning"
             " bajarilishiOmmaviy chatlar xavfsizlikka xavf tug'diradi. Afzal bajaring u"
             " <a href='tg://openmessage?user_id={}'>Mazkur xabarlarda</a>.</b>"
         ),
-        "opening_tunnel": "🔁 <b>Hikka veb-interfeysiga tunnel ochilmoqda...</b>",
+        "opening_tunnel": "🔁 <b>Bampi veb-interfeysiga tunnel ochilmoqda...</b>",
         "tunnel_opened": (
             "🎉 <b>Tunnel ochiq. Bu havola bir soatdan ko'p bo'lmagan vaqt davomida faol"
             " bo'ladi</b>"
@@ -704,7 +704,7 @@ class HikkaSettingsMod(loader.Module):
         "btn_yes": "🚸 Baribir ochiq",
         "btn_no": "🔻 Yopish",
         "lavhost_web": (
-            "✌️ <b>Ushbu havola sizni Hikka veb-interfeysiga olib boradi"
+            "✌️ <b>Ushbu havola sizni Bampi veb-interfeysiga olib boradi"
             " lavHost</b>\n\n<i>💡 Hisob ma'lumotlaringizdan foydalanib tizimga"
             " kirishingiz kerak,lavHost</i>ni sozlashda ko'rsatilgan"
         ),
@@ -873,7 +873,7 @@ class HikkaSettingsMod(loader.Module):
         "cmd404": (
             "<emoji document_id=5469791106591890404>🪄</emoji> <b>コマンドが見つかりません</b>"
         ),
-        "inline_settings": "⚙️ <b>ここで Hikka の設定を管理できます</b>",
+        "inline_settings": "⚙️ <b>ここで Bampi の設定を管理できます</b>",
         "confirm_update": "🧭 <b>更新を確認します。ユーザーボットが再起動します</b>",
         "confirm_restart": "🔄 <b>再起動を確認</b>",
         "suggest_fs": " モジュールの保存を提案する",
@@ -893,7 +893,7 @@ class HikkaSettingsMod(loader.Module):
         "_cls_doc": "ヒッカの詳細設定",
         "nonick_warning": (
             "注意! 標準のプレフィックスに NoNick が含まれています!"
-            "Hikka Chat でミュートすることができます。プレフィックスを変更するか, "
+            "Bampi Chat でミュートすることができます。プレフィックスを変更するか, "
             "グローバル NoNick をオフにします!"
         ),
         "reply_required": (
@@ -901,20 +901,20 @@ class HikkaSettingsMod(loader.Module):
             "ユーザーは NoNick を有効にします</b>"
         ),
         "deauth_confirm": (
-            "⚠️ <b>このアクションにより, このアカウントから Hikka が完全に削除されます! 彼は削除できません"
-            "キャンセル</b>\n\n<i>- Hikka に関連するすべてのチャットが削除されます\n- セッション"
+            "⚠️ <b>このアクションにより, このアカウントから Bampi が完全に削除されます! 彼は削除できません"
+            "キャンセル</b>\n\n<i>- Bampi に関連するすべてのチャットが削除されます\n- セッション"
             "ヒッカはリセットされます\n- ヒッカのインライン ボットは削除されます</i>"
         ),
-        "deauth_confirm_step2": "⚠️ <b>Hikka をアンインストールしてもよろしいですか?</b>",
+        "deauth_confirm_step2": "⚠️ <b>Bampi をアンインストールしてもよろしいですか?</b>",
         "deauth_yes": "確かに",
         "deauth_no_1": "わからない",
         "deauth_no_2": "わかりません",
         "deauth_no_3": "いいえ",
         "deauth_cancel": "🚫キャンセル",
         "deauth_confirm_btn": "😢削除",
-        "uninstall": "😢 <b>Hikka をアンインストールしています...</b>",
+        "uninstall": "😢 <b>Bampi をアンインストールしています...</b>",
         "uninstalled": (
-            "😢 <b>Hikka' は廃止されました。Web インターフェースはまだアクティブです。その他アカウントを追加できます!</b>"
+            "😢 <b>Bampi' は廃止されました。Web インターフェースはまだアクティブです。その他アカウントを追加できます!</b>"
         ),
         "logs_cleared": "🗑 <b>ログを消去</b>",
         "cmd_nn_list": (
@@ -931,14 +931,14 @@ class HikkaSettingsMod(loader.Module):
         ),
         "nothing": "<emoji document_id=5427052514094619126>🤷️</emoji> <b>なし表示...</b>",
         "privacy_leak": (
-            "⚠️ <b>このコマンドは, Hikka Web インターフェイスへのアクセスを提供します。その実行"
+            "⚠️ <b>このコマンドは, Bampi Web インターフェイスへのアクセスを提供します。その実行"
             "公開チャットはセキュリティ上のリスクです。できれば実行してください"
             "<a href='tg://openmessage?user_id={}'>選択したメッセージ</a>にあります。"
             "</b><code>{}proxypass force_insecure</code><b> を実行して無効にします"
             "これは警告です</b>"
         ),
         "privacy_leak_nowarn": (
-            "⚠️ <b>このコマンドは, Hikka Web インターフェイスへのアクセスを提供します。その実行"
+            "⚠️ <b>このコマンドは, Bampi Web インターフェイスへのアクセスを提供します。その実行"
             "公開チャットはセキュリティ上のリスクです。できれば実行してください"
             " <a href='tg://openmessage?user_id={}'>メッセージを選択</a>インチ</b>"
         ),
@@ -948,7 +948,7 @@ class HikkaSettingsMod(loader.Module):
         "btn_yes": "とにかく開く",
         "btn_no": "閉じる",
         "lavhost_web": (
-            "✌️ <b>このリンクをクリックすると, Hikka Web インターフェイス lvHost に移動します</b>\n\n<i>💡"
+            "✌️ <b>このリンクをクリックすると, Bampi Web インターフェイス lvHost に移動します</b>\n\n<i>💡"
             "lavHost をセットアップするときは, 資格情報を使用してログインする必要があります"
             "指定</i>"
         ),
@@ -983,7 +983,7 @@ class HikkaSettingsMod(loader.Module):
             " </b><code>{}</code><b>가 아닙니다: {}</b>"
         ),
         "cmd404": "<emoji document_id=5469791106591890404>🪄</emoji> <b>명령을 찾을 수 없음</b>",
-        "inline_settings": "⚙️ <b>여기에서 Hikka 설정을 관리할 수 있습니다.</b>",
+        "inline_settings": "⚙️ <b>여기에서 Bampi 설정을 관리할 수 있습니다.</b>",
         "confirm_update": "🧭 <b>업데이트를 확인하십시오. Userbot이 다시 시작됩니다</b>",
         "confirm_restart": "🔄 <b>다시 시작 확인</b>",
         "suggest_fs": " 저장 모듈 제안",
@@ -1001,29 +1001,29 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5447207618793708263>🚫</emoji> <b>이 명령이 필요합니다."
             "채팅에서 실행</b>"
         ),
-        "_cls_doc": "고급 Hikka 설정",
+        "_cls_doc": "고급 Bampi 설정",
         "nonick_warning": (
-            "주의! 표준 접두사에 NoNick을 포함했습니다!Hikka 채팅에서 음소거할 수 있습니다. 접두사를 변경하거나 글로벌 노닉 꺼!"
+            "주의! 표준 접두사에 NoNick을 포함했습니다!Bampi 채팅에서 음소거할 수 있습니다. 접두사를 변경하거나 글로벌 노닉 꺼!"
         ),
         "reply_required": (
             "<emoji document_id=5447207618793708263>🚫</emoji> <b>메시지에 답장"
             "사용자가 NoNick을 활성화합니다</b>"
         ),
         "deauth_confirm": (
-            "⚠️ <b>이 작업은 이 계정에서 Hikka를 완전히 제거합니다! 그는 할 수 없습니다."
-            "취소</b>\n\n<i>- Hikka와 관련된 모든 채팅이 삭제됩니다\n- 세션"
-            " Hikka가 재설정됩니다\n- Hikka의 인라인 봇이 제거됩니다</i>"
+            "⚠️ <b>이 작업은 이 계정에서 Bampi를 완전히 제거합니다! 그는 할 수 없습니다."
+            "취소</b>\n\n<i>- Bampi와 관련된 모든 채팅이 삭제됩니다\n- 세션"
+            " Bampi가 재설정됩니다\n- Bampi의 인라인 봇이 제거됩니다</i>"
         ),
-        "deauth_confirm_step2": "⚠️ <b>Hikka를 제거하시겠습니까?</b>",
+        "deauth_confirm_step2": "⚠️ <b>Bampi를 제거하시겠습니까?</b>",
         "deauth_yes": "확실합니다",
         "deauth_no_1": "잘 모르겠습니다",
         "deauth_no_2": "확실하지 않음",
         "deauth_no_3": "아니요",
         "deauth_cancel": "🚫 취소",
         "deauth_confirm_btn": "😢 삭제",
-        "uninstalling": "😢 <b>Hikka 제거 중...</b>",
+        "uninstalling": "😢 <b>Bampi 제거 중...</b>",
         "uninstalled": (
-            "😢 <b>Hikka'는 더 이상 사용되지 않습니다. 웹 인터페이스는 여전히 활성화되어 있습니다. 계정을 추가할 수 있습니다!</b>"
+            "😢 <b>Bampi'는 더 이상 사용되지 않습니다. 웹 인터페이스는 여전히 활성화되어 있습니다. 계정을 추가할 수 있습니다!</b>"
         ),
         "logs_cleared": "🗑 <b>로그 삭제</b>",
         "cmd_nn_list": (
@@ -1042,14 +1042,14 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5427052514094619126>🤷️</emoji> <b>아무것도 없음보여줘...</b>"
         ),
         "privacy_leak": (
-            "⚠️ <b>이 명령은 Hikka 웹 인터페이스에 대한 액세스를 제공합니다. 실행"
+            "⚠️ <b>이 명령은 Bampi 웹 인터페이스에 대한 액세스를 제공합니다. 실행"
             "공개채팅은 보안상 위험합니다. 가급적이면 수행하세요."
             "<a href='tg://openmessage?user_id={}'>메시지 선택</a>에 있습니다."
             "</b><code>{}proxypass force_insecure</code><b>를 실행하여 비활성화"
             "경고입니다</b>"
         ),
         "privacy_leak_nowarn": (
-            "⚠️ <b>이 명령은 Hikka 웹 인터페이스에 대한 액세스를 제공합니다. 실행"
+            "⚠️ <b>이 명령은 Bampi 웹 인터페이스에 대한 액세스를 제공합니다. 실행"
             "공개채팅은 보안상 위험합니다. 가급적이면 수행하세요."
             " <a href='tg://openmessage?user_id={}'>메시지 선택</a> 안에.</b>"
         ),
@@ -1059,7 +1059,7 @@ class HikkaSettingsMod(loader.Module):
         "btn_yes": " 어쨌든 열기",
         "btn_no": " 닫기",
         "lavhost_web": (
-            "✌️ <b>이 링크는 Hikka 웹 인터페이스 lvHost</b>로 이동합니다.\n\n<i>💡"
+            "✌️ <b>이 링크는 Bampi 웹 인터페이스 lvHost</b>로 이동합니다.\n\n<i>💡"
             "lavHost를 설정할 때 자격 증명을 사용하여 로그인해야 합니다"
             "지정됨</i>"
         ),
@@ -1104,7 +1104,7 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5469791106591890404>🪄</emoji> <b> الأمر غير م, ج, د"
             " </b>"
         ),
-        "inline_settings": "⚙️ <b> هنا يمكنك إدارة إعدادات Hikka </b>",
+        "inline_settings": "⚙️ <b> هنا يمكنك إدارة إعدادات Bampi </b>",
         "Confirm_update": "🧭 <b> أكد التحديث. سيعيد Userbot إعادة التشغيل </b>",
         "irm_restart ": " 🔄 <b> تأكيد إعادة التشغيل </b> ",
         "Suggest_fs": "اقتراح , حدة حفظ",
@@ -1122,10 +1122,10 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5447207618793708263>🚫</emoji> <b> هذا الأمر مطل, ب"
             "تنفيذ في الدردشة </b>"
         ),
-        "_cls_doc": "إعدادات Hikka المتقدمة",
+        "_cls_doc": "إعدادات Bampi المتقدمة",
         "nonick_warning": (
             "تنبيه! لقد قمت بتضمين NoNick مع البادئة القياسية!"
-            "يمكن كتم ص, تك في Hikka Chat. قم بتغيير البادئة أ, "
+            "يمكن كتم ص, تك في Bampi Chat. قم بتغيير البادئة أ, "
             "إيقاف تشغيل NoNick العالمية!"
         ),
         "reply_required": (
@@ -1133,20 +1133,20 @@ class HikkaSettingsMod(loader.Module):
             "سيق, م المستخدم بتمكين NoNick </b>"
         ),
         "deauth_confirm": (
-            "⚠️ <b> سيؤدي هذا الإجراء إلى إزالة Hikka تمامًا من هذا الحساب! لا يمكنه"
+            "⚠️ <b> سيؤدي هذا الإجراء إلى إزالة Bampi تمامًا من هذا الحساب! لا يمكنه"
             " ذلكإلغاء </b>\n\n<i> - سيتم حذف كافة الدردشات المتعلقة بهيكا\n-"
-            " الجلسةستتم إعادة تعيين Hikka\n- ستتم إزالة برنامج Hikka المضمن </i>"
+            " الجلسةستتم إعادة تعيين Bampi\n- ستتم إزالة برنامج Bampi المضمن </i>"
         ),
-        "deauth_confirm_step2": "⚠️ <b> هل أنت متأكد من أنك تريد إزالة Hikka؟ </b>",
+        "deauth_confirm_step2": "⚠️ <b> هل أنت متأكد من أنك تريد إزالة Bampi؟ </b>",
         "deauth_yes": "أنا متأكد",
         "deauth_no_1": "لست متأكدًا",
         "deauth_no_2": "لست متأكدًا",
         "deauth_no_3": "لا",
         "deauth_cancel": "🚫 إلغاء",
         "deauth_confirm_btn": "😢 حذف",
-        "uninstalling": "😢 <b> إزالة Hikka ... </b>",
+        "uninstalling": "😢 <b> إزالة Bampi ... </b>",
         "uninstalled": (
-            "<b>تم إهمال  Hikka. , اجهة ال, يب لا تزال نشطة ,  , البعض الآخر"
+            "<b>تم إهمال  Bampi. , اجهة ال, يب لا تزال نشطة ,  , البعض الآخر"
             "يمكن أن تضاف حسابات! </b>"
         ),
         "logs_cleared": "🗑 <b> تم مسح السجلات </b>",
@@ -1166,14 +1166,14 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5427052514094619126> 🤷️ </emoji> <b> لا شيءعرض ... </b>"
         ),
         "privacy_leak": (
-            "⚠️ <b> ي, فر هذا الأمر ال, ص, ل إلى , اجهة , يب Hikka. تنفيذه"
+            "⚠️ <b> ي, فر هذا الأمر ال, ص, ل إلى , اجهة , يب Bampi. تنفيذه"
             "الدردشة العامة تشكل مخاطرة أمنية. , يفضل أن تؤدي"
             "إنه م, ج, د في <a href='tg://openmessage؟user_id={}'> حدد الرسائل </a>."
             "تشغيل </b> <code> {proxypass force_insecure </code> <b> للتعطيل"
             "هذا تحذير </b>"
         ),
         "privacy_leak_nowarn": (
-            "⚠️ <b> ي, فر هذا الأمر ال, ص, ل إلى , اجهة , يب Hikka. تنفيذه"
+            "⚠️ <b> ي, فر هذا الأمر ال, ص, ل إلى , اجهة , يب Bampi. تنفيذه"
             "الدردشة العامة تشكل مخاطرة أمنية. , يفضل أن تؤدي"
             "<a href='tg://openmessage؟user_id={}'> حدد الرسائل</a> في. </b> "
         ),
@@ -1185,7 +1185,7 @@ class HikkaSettingsMod(loader.Module):
         "btn_yes": "فتح على أي حال",
         "btn_no": "إغلاق",
         "lavhost_web": (
-            "✌️ <b> سينقلك هذا الارتباط إلى , اجهة , يب Hikka lvHost </b>\n\n<i> 💡"
+            "✌️ <b> سينقلك هذا الارتباط إلى , اجهة , يب Bampi lvHost </b>\n\n<i> 💡"
             "يجب تسجيل الدخ, ل باستخدام بيانات الاعتماد الخاصة بك عند إعداد lavHost"
             "محدد </ i>"
         ),
@@ -1232,7 +1232,7 @@ class HikkaSettingsMod(loader.Module):
             " encontrado</b>"
         ),
         "inline_settings": (
-            "⚙️ <b>Aquí puedes administrar la configuración de Hikka</b>"
+            "⚙️ <b>Aquí puedes administrar la configuración de Bampi</b>"
         ),
         "confirm_update": "🧭 <b>Confirmar actualización. Userbot se reiniciará</b>",
         "confirm_restart": "🔄 <b>Confirmar reinicio</b>",
@@ -1251,10 +1251,10 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5447207618793708263>🚫</emoji> <b>Este comando es"
             " necesarioEjecutar en el chat</b>"
         ),
-        "_cls_doc": "Configuración avanzada de Hikka",
+        "_cls_doc": "Configuración avanzada de Bampi",
         "nonick_warning": (
             "¡Atención! ¡Has incluido NoNick con el prefijo estándar!"
-            "Puedes silenciarte en Hikka Chat. Cambia el prefijo o "
+            "Puedes silenciarte en Bampi Chat. Cambia el prefijo o "
             "¡Apaga el NoNick global!"
         ),
         "reply_required": (
@@ -1262,13 +1262,13 @@ class HikkaSettingsMod(loader.Module):
             "El usuario habilitará NoNick</b>"
         ),
         "deauth_confirm": (
-            "⚠️ <b>¡Esta acción eliminará completamente a Hikka de esta cuenta! Él no"
+            "⚠️ <b>¡Esta acción eliminará completamente a Bampi de esta cuenta! Él no"
             " puedeCancelar</b>\n\n<i>- Se eliminarán todos los chats relacionados con"
-            " Hikka\n- Sesión Hikka se reiniciará\n- El bot en línea de Hikka se"
+            " Bampi\n- Sesión Bampi se reiniciará\n- El bot en línea de Bampi se"
             " eliminará</i>"
         ),
         "deauth_confirm_step2": (
-            "⚠️ <b>¿Está seguro de que desea desinstalar Hikka?</b>"
+            "⚠️ <b>¿Está seguro de que desea desinstalar Bampi?</b>"
         ),
         "deauth_yes": "Estoy seguro",
         "deauth_no_1": "No estoy seguro",
@@ -1276,9 +1276,9 @@ class HikkaSettingsMod(loader.Module):
         "deauth_no_3": "No",
         "deauth_cancel": "🚫 Cancelar",
         "deauth_confirm_btn": "😢 Eliminar",
-        "uninstall": "😢 <b>Desinstalando Hikka...</b>",
+        "uninstall": "😢 <b>Desinstalando Bampi...</b>",
         "uninstalled": (
-            "😢 <b>Hikka' ha quedado obsoleto. La interfaz web todavía está activa,"
+            "😢 <b>Bampi' ha quedado obsoleto. La interfaz web todavía está activa,"
             " otros¡Se pueden agregar cuentas!</b>"
         ),
         "logs_cleared": "🗑 <b>Registros borrados</b>",
@@ -1298,14 +1298,14 @@ class HikkaSettingsMod(loader.Module):
             "<emoji document_id=5427052514094619126>🤷️</emoji> <b>nadaMostrar...</b>"
         ),
         "privacy_leak": (
-            "⚠️ <b>Este comando proporciona acceso a la interfaz web de Hikka. Su"
+            "⚠️ <b>Este comando proporciona acceso a la interfaz web de Bampi. Su"
             " ejecuciónEl chat público es un riesgo de seguridad. Preferiblemente"
             " realizarEstá en <a href='tg://openmessage?user_id={}'>mensajes"
             " seleccionados</a>Ejecute </b><code>{}proxypass force_insecure</code><b>"
             " para desactivarEsto es una advertencia</b>"
         ),
         "privacy_leak_nowarn": (
-            "⚠️ <b>Este comando proporciona acceso a la interfaz web de Hikka. Su"
+            "⚠️ <b>Este comando proporciona acceso a la interfaz web de Bampi. Su"
             " ejecuciónEl chat público es un riesgo de seguridad. Preferiblemente"
             " realizar <a href='tg://openmessage?user_id={}'>seleccionar mensajes</a>"
             " pulg.</b>"
@@ -1319,7 +1319,7 @@ class HikkaSettingsMod(loader.Module):
         "btn_yes": " Abrir de todos modos",
         "btn_no": "Cerrar",
         "lavhost_web": (
-            "✌️ <b>Este enlace lo llevará a la interfaz web de Hikka lvHost</b>\n\n<i>💡"
+            "✌️ <b>Este enlace lo llevará a la interfaz web de Bampi lvHost</b>\n\n<i>💡"
             "debe iniciar sesión con sus credenciales al configurar lavHost"
             "Especificado</i>"
         ),
@@ -1359,18 +1359,18 @@ class HikkaSettingsMod(loader.Module):
             if (
                 dialog.name
                 in {
-                    "hikka-logs",
-                    "hikka-onload",
-                    "hikka-assets",
-                    "hikka-backups",
-                    "hikka-acc-switcher",
+                    "Bampi-logs",
+                    "Bampi-onload",
+                    "Bampi-assets",
+                    "Bampi-backups",
+                    "Bampi-acc-switcher",
                     "silent-tags",
                 }
                 and dialog.is_channel
                 and (
                     dialog.entity.participants_count == 1
                     or dialog.entity.participants_count == 2
-                    and dialog.name in {"hikka-logs", "silent-tags"}
+                    and dialog.name in {"Bampi-logs", "silent-tags"}
                 )
                 or (
                     self._client.loader.inline.init_complete
@@ -1381,7 +1381,7 @@ class HikkaSettingsMod(loader.Module):
 
         folders = await self._client(GetDialogFiltersRequest())
 
-        if any(folder.title == "hikka" for folder in folders):
+        if any(folder.title == "Bampi" for folder in folders):
             folder_id = max(
                 folders,
                 key=lambda x: x.id,
@@ -1439,18 +1439,18 @@ class HikkaSettingsMod(loader.Module):
 
     @loader.owner
     @loader.command(
-        ru_doc="Удалить Hikka",
-        de_doc="Hikka deinstallieren",
-        tr_doc="Hikka'yı kaldır",
-        uz_doc="Hikka'ni o'chirish",
+        ru_doc="Удалить Bampi",
+        de_doc="Bampi deinstallieren",
+        tr_doc="Bampi'yı kaldır",
+        uz_doc="Bampi'ni o'chirish",
         hi_doc="हिक्का को अनइंस्टॉल करें",
-        ja_doc="Hikkaをアンインストールします",
-        kr_doc="Hikka를 제거합니다",
+        ja_doc="Bampiをアンインストールします",
+        kr_doc="Bampi를 제거합니다",
         ar_doc="إلغاء تثبيت هيكا",
-        es_doc="Desinstalar Hikka",
+        es_doc="Desinstalar Bampi",
     )
-    async def uninstall_hikka(self, message: Message):
-        """Uninstall Hikka"""
+    async def uninstall_Bampi(self, message: Message):
+        """Uninstall Bampi"""
         await self.inline.form(
             self.strings("deauth_confirm"),
             message,
@@ -2210,25 +2210,25 @@ class HikkaSettingsMod(loader.Module):
 
     @loader.owner
     @loader.command(
-        ru_doc="Открыть тоннель к веб-интерфейсу Hikka",
-        de_doc="Öffne einen Tunnel zum Hikka Webinterface",
-        tr_doc="Hikka Web Arayüzüne bir tünel aç",
-        uz_doc="Hikka veb-interfeysi uchun tunel ochish",
-        hi_doc="Hikka वेब इंटरफ़ेस के लिए ट्यूनल खोलें",
-        ja_doc="Hikka Webインターフェイスにトンネルを開く",
-        kr_doc="Hikka 웹 인터페이스에 터널 열기",
-        ar_doc="افتح نفقًا إلى واجهة Hikka الويب",
-        es_doc="Abrir un túnel al interfaz web de Hikka",
+        ru_doc="Открыть тоннель к веб-интерфейсу Bampi",
+        de_doc="Öffne einen Tunnel zum Bampi Webinterface",
+        tr_doc="Bampi Web Arayüzüne bir tünel aç",
+        uz_doc="Bampi veb-interfeysi uchun tunel ochish",
+        hi_doc="Bampi वेब इंटरफ़ेस के लिए ट्यूनल खोलें",
+        ja_doc="Bampi Webインターフェイスにトンネルを開く",
+        kr_doc="Bampi 웹 인터페이스에 터널 열기",
+        ar_doc="افتح نفقًا إلى واجهة Bampi الويب",
+        es_doc="Abrir un túnel al interfaz web de Bampi",
     )
     async def weburl(self, message: Message, force: bool = False):
-        """Opens web tunnel to your Hikka web interface"""
+        """Opens web tunnel to your Bampi web interface"""
         if "LAVHOST" in os.environ:
             form = await self.inline.form(
                 self.strings("lavhost_web"),
                 message=message,
                 reply_markup={
                     "text": self.strings("web_btn"),
-                    "url": await main.hikka.web.get_url(proxy_pass=False),
+                    "url": await main.Bampi.web.get_url(proxy_pass=False),
                 },
                 gif="https://t.me/hikari_assets/28",
             )
@@ -2284,7 +2284,7 @@ class HikkaSettingsMod(loader.Module):
                 ),
             )
 
-        url = await main.hikka.web.get_url(proxy_pass=True)
+        url = await main.Bampi.web.get_url(proxy_pass=True)
 
         await form.edit(
             self.strings("tunnel_opened"),
@@ -2352,44 +2352,44 @@ class HikkaSettingsMod(loader.Module):
         if module == "core":
             if method == "clear_entity_cache":
                 result = (
-                    f"Dropped {len(self._client._hikka_entity_cache)} cache records"
+                    f"Dropped {len(self._client._Bampi_entity_cache)} cache records"
                 )
-                self._client._hikka_entity_cache = {}
+                self._client._Bampi_entity_cache = {}
             elif method == "clear_fulluser_cache":
                 result = (
-                    f"Dropped {len(self._client._hikka_fulluser_cache)} cache records"
+                    f"Dropped {len(self._client._Bampi_fulluser_cache)} cache records"
                 )
-                self._client._hikka_fulluser_cache = {}
+                self._client._Bampi_fulluser_cache = {}
             elif method == "clear_fullchannel_cache":
                 result = (
-                    f"Dropped {len(self._client._hikka_fullchannel_cache)} cache"
+                    f"Dropped {len(self._client._Bampi_fullchannel_cache)} cache"
                     " records"
                 )
-                self._client._hikka_fullchannel_cache = {}
+                self._client._Bampi_fullchannel_cache = {}
             elif method == "clear_perms_cache":
-                result = f"Dropped {len(self._client._hikka_perms_cache)} cache records"
-                self._client._hikka_perms_cache = {}
+                result = f"Dropped {len(self._client._Bampi_perms_cache)} cache records"
+                self._client._Bampi_perms_cache = {}
             elif method == "clear_cache":
                 result = (
-                    f"Dropped {len(self._client._hikka_entity_cache)} entity cache"
+                    f"Dropped {len(self._client._Bampi_entity_cache)} entity cache"
                     " records\nDropped"
-                    f" {len(self._client._hikka_fulluser_cache)} fulluser cache"
+                    f" {len(self._client._Bampi_fulluser_cache)} fulluser cache"
                     " records\nDropped"
-                    f" {len(self._client._hikka_fullchannel_cache)} fullchannel cache"
+                    f" {len(self._client._Bampi_fullchannel_cache)} fullchannel cache"
                     " records"
                 )
-                self._client._hikka_entity_cache = {}
-                self._client._hikka_fulluser_cache = {}
-                self._client._hikka_fullchannel_cache = {}
+                self._client._Bampi_entity_cache = {}
+                self._client._Bampi_fulluser_cache = {}
+                self._client._Bampi_fullchannel_cache = {}
             elif method == "reload_core":
                 core_quantity = await self.lookup("loader").reload_core()
                 result = f"Reloaded {core_quantity} core modules"
             elif method == "inspect_cache":
                 result = (
                     "Entity cache:"
-                    f" {len(self._client._hikka_entity_cache)} records\nFulluser cache:"
-                    f" {len(self._client._hikka_fulluser_cache)} records\nFullchannel"
-                    f" cache: {len(self._client._hikka_fullchannel_cache)} records"
+                    f" {len(self._client._Bampi_entity_cache)} records\nFulluser cache:"
+                    f" {len(self._client._Bampi_fulluser_cache)} records\nFullchannel"
+                    f" cache: {len(self._client._Bampi_fullchannel_cache)} records"
                 )
             elif method == "inspect_modules":
                 result = (

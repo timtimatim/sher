@@ -34,7 +34,7 @@ from urllib.parse import urlparse
 import os
 
 from .. import utils, main
-from ..types import HikkaReplyMarkup
+from ..types import BampiReplyMarkup
 from .types import InlineUnit, InlineMessage
 
 logger = logging.getLogger(__name__)
@@ -60,7 +60,7 @@ class Gallery(InlineUnit):
         next_handler: typing.Union[callable, typing.List[str]],
         caption: typing.Union[typing.List[str], str, callable] = "",
         *,
-        custom_buttons: typing.Optional[HikkaReplyMarkup] = None,
+        custom_buttons: typing.Optional[BampiReplyMarkup] = None,
         force_me: bool = False,
         always_allow: typing.Optional[typing.List[int]] = None,
         manual_security: bool = False,
@@ -89,16 +89,16 @@ class Gallery(InlineUnit):
                         be loaded. Toggle this attribute, if your callback is too slow to load photos
                         in real time
         :param gif: Whether the gallery will be filled with gifs. If you omit this argument and specify
-                    gifs in `next_handler`, Hikka will try to determine the filetype of these images
-        :param manual_security: By default, Hikka will try to inherit inline buttons security from the caller (command)
+                    gifs in `next_handler`, Bampi will try to determine the filetype of these images
+        :param manual_security: By default, Bampi will try to inherit inline buttons security from the caller (command)
                                 If you want to avoid this, pass `manual_security=True`
-        :param disable_security: By default, Hikka will try to inherit inline buttons security from the caller (command)
+        :param disable_security: By default, Bampi will try to inherit inline buttons security from the caller (command)
                                  If you want to disable all security checks on this gallery in particular, pass `disable_security=True`
         :param silent: Whether the gallery must be sent silently (w/o "Opening gallery..." message)
         :return: If gallery is sent, returns :obj:`InlineMessage`, otherwise returns `False`
         """
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self._client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self._client.tg_id)
 
         custom_buttons = self._validate_markup(custom_buttons)
 
@@ -258,7 +258,7 @@ class Gallery(InlineUnit):
                 )(
                     (
                         utils.get_platform_emoji(self._client)
-                        if self._client.hikka_me.premium and CUSTOM_EMOJIS
+                        if self._client.Bampi_me.premium and CUSTOM_EMOJIS
                         else "🌘"
                     )
                     + self._client.loader._lookup("translations").strings(

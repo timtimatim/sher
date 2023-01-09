@@ -21,7 +21,7 @@ from telethon.errors.rpcerrorlist import ChatSendInlineForbiddenError
 from telethon.extensions.html import CUSTOM_EMOJIS
 
 from .. import utils, main
-from ..types import HikkaReplyMarkup
+from ..types import BampiReplyMarkup
 from .types import InlineMessage, InlineUnit
 
 logger = logging.getLogger(__name__)
@@ -40,7 +40,7 @@ class List(InlineUnit):
         ttl: typing.Union[int, bool] = False,
         on_unload: typing.Optional[callable] = None,
         silent: bool = False,
-        custom_buttons: typing.Optional[HikkaReplyMarkup] = None,
+        custom_buttons: typing.Optional[BampiReplyMarkup] = None,
     ) -> typing.Union[bool, InlineMessage]:
         """
         Send inline list to chat
@@ -53,16 +53,16 @@ class List(InlineUnit):
                     be bigger, than default one (1 day) and must be either `int` or `False`
         :param on_unload: Callback, called when list is unloaded and/or closed. You can clean up trash
                           or perform another needed action
-        :param manual_security: By default, Hikka will try to inherit inline buttons security from the caller (command)
+        :param manual_security: By default, Bampi will try to inherit inline buttons security from the caller (command)
                                 If you want to avoid this, pass `manual_security=True`
-        :param disable_security: By default, Hikka will try to inherit inline buttons security from the caller (command)
+        :param disable_security: By default, Bampi will try to inherit inline buttons security from the caller (command)
                                  If you want to disable all security checks on this list in particular, pass `disable_security=True`
         :param silent: Whether the list must be sent silently (w/o "Opening list..." message)
         :param custom_buttons: Custom buttons to add above native ones
         :return: If list is sent, returns :obj:`InlineMessage`, otherwise returns `False`
         """
         with contextlib.suppress(AttributeError):
-            _hikka_client_id_logging_tag = copy.copy(self._client.tg_id)
+            _Bampi_client_id_logging_tag = copy.copy(self._client.tg_id)
 
         custom_buttons = self._validate_markup(custom_buttons)
 
@@ -180,7 +180,7 @@ class List(InlineUnit):
                 )(
                     (
                         utils.get_platform_emoji(self._client)
-                        if self._client.hikka_me.premium and CUSTOM_EMOJIS
+                        if self._client.Bampi_me.premium and CUSTOM_EMOJIS
                         else "🌘"
                     )
                     + self._client.loader._lookup("translations").strings(
@@ -309,7 +309,7 @@ class List(InlineUnit):
                     [
                         InlineQueryResultArticle(
                             id=utils.rand(20),
-                            title="Hikka",
+                            title="Bampi",
                             input_message_content=InputTextMessageContent(
                                 self.sanitise_text(unit["strings"][0]),
                                 "HTML",

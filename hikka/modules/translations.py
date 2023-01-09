@@ -578,7 +578,7 @@ class Translations(loader.Module):
         es_doc="[Enlace al paquete | vacío para eliminar] - Cambiar el paquete de",
     )
     async def dllangpackcmd(self, message: Message):
-        """[link to a langpack | empty to remove] - Change Hikka translate pack (external)
+        """[link to a langpack | empty to remove] - Change Bampi translate pack (external)
         """
         args = utils.get_args_raw(message)
 

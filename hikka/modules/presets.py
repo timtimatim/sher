@@ -39,7 +39,7 @@ PRESETS = {
         "https://heta.hikariatama.ru/Fl1yd/FTG-Modules/arts.py",
         "https://heta.hikariatama.ru/SkillsAngels/Modules/Complements.py",
         "https://heta.hikariatama.ru/Den4ikSuperOstryyPer4ik/Astro-modules/Compliments.py",
-        "https://heta.hikariatama.ru/vsecoder/hikka_modules/mazemod.py",
+        "https://heta.hikariatama.ru/vsecoder/Bampi_modules/mazemod.py",
     ],
     "chat": [
         "https://mods.hikariatama.ru/activists.py",
@@ -64,8 +64,8 @@ PRESETS = {
         "https://mods.hikariatama.ru/sticks.py",
         "https://mods.hikariatama.ru/temp_chat.py",
         "https://mods.hikariatama.ru/vtt.py",
-        "https://heta.hikariatama.ru/vsecoder/hikka_modules/accounttime.py",
-        "https://heta.hikariatama.ru/vsecoder/hikka_modules/searx.py",
+        "https://heta.hikariatama.ru/vsecoder/Bampi_modules/accounttime.py",
+        "https://heta.hikariatama.ru/vsecoder/Bampi_modules/searx.py",
         "https://heta.hikariatama.ru/iamnalinor/FTG-modules/swmute.py",
     ],
     "downloaders": [
@@ -74,9 +74,9 @@ PRESETS = {
         "https://mods.hikariatama.ru/porn.py",
         "https://mods.hikariatama.ru/web2file.py",
         "https://heta.hikariatama.ru/AmoreForever/amoremods/instsave.py",
-        "https://heta.hikariatama.ru/CakesTwix/Hikka-Modules/tikcock.py",
-        "https://heta.hikariatama.ru/CakesTwix/Hikka-Modules/InlineYouTube.py",
-        "https://heta.hikariatama.ru/CakesTwix/Hikka-Modules/InlineSpotifyDownloader.py",
+        "https://heta.hikariatama.ru/CakesTwix/Bampi-Modules/tikcock.py",
+        "https://heta.hikariatama.ru/CakesTwix/Bampi-Modules/InlineYouTube.py",
+        "https://heta.hikariatama.ru/CakesTwix/Bampi-Modules/InlineSpotifyDownloader.py",
         "https://heta.hikariatama.ru/GeekTG/FTG-Modules/downloader.py",
         "https://heta.hikariatama.ru/Den4ikSuperOstryyPer4ik/Astro-modules/dl_yt_previews.py",
     ],
@@ -85,7 +85,7 @@ PRESETS = {
 
 @loader.tds
 class Presets(loader.Module):
-    """Suggests new Hikka users a packs of modules to load"""
+    """Suggests new Bampi users a packs of modules to load"""
 
     strings = {
         "name": "Presets",

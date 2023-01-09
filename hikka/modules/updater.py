@@ -238,8 +238,8 @@ class UpdaterMod(loader.Module):
         "update_confirm": (
             "❓ <b>Bist du sicher, dass"
             " du updaten willst??\n\n<a"
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ <a'
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a> ⤑ <a'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a></b>'
         ),
         "no_update": (
             "🚸 <b>Du hast die neueste Version. Willst du trotzdem updaten?</b>"
@@ -295,8 +295,8 @@ class UpdaterMod(loader.Module):
         ),
         "update_confirm": (
             "❓ <b>क्या आप वाकई अपडेट करना चाहते हैं??\n\n<a"
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ <a'
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a> ⤑ <a'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a></b>'
         ),
         "no_update": (
             "🚸 <b>आपका नवीनतम संस्करण है। क्या आप भी अपडेट करना चाहते हैं?</b>"
@@ -356,8 +356,8 @@ class UpdaterMod(loader.Module):
         ),
         "update_confirm": (
             "❓ <b>Gerçekten güncellemek istiyor musunuz??\n\n<a"
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ <a'
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a> ⤑ <a'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a></b>'
         ),
         "no_update": "🚸 <b>Zaten son sürümünüz. Güncelleme yapmak ister misiniz?</b>",
         "cancel": "🚫 İptal",
@@ -412,8 +412,8 @@ class UpdaterMod(loader.Module):
         ),
         "update_confirm": (
             "❓ <b>Haqiqatan ham yangilamoqchimisiz??\n\n<a"
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ <a'
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a> ⤑ <a'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a></b>'
         ),
         "no_update": (
             "🚸 <b>Siz allaqachon eng so'nggi versiyasiz. Yangilamoqchimisiz?</b>"
@@ -459,8 +459,8 @@ class UpdaterMod(loader.Module):
         "secure_boot_confirm": "❓ <b>本当にセキュアモードで再起動しますか？</b>",
         "update_confirm": (
             "❓ <b>本当にアップデートしますか？\n\n<a"
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ <a'
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a> ⤑ <a'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a></b>'
         ),
         "no_update": "🚸 <b>すでに最新バージョンです。アップデートしますか？</b>",
         "cancel": "🚫 キャンセル",
@@ -502,8 +502,8 @@ class UpdaterMod(loader.Module):
         "secure_boot_confirm": "❓ <b>보안 모드로 재시작 하시겠습니까?</b>",
         "update_confirm": (
             "❓ <b>업데이트 하시겠습니까?\n\n<a"
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ <a'
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a> ⤑ <a'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a></b>'
         ),
         "no_update": "🚸 <b>이미 최신 버전입니다. 업데이트 하시겠습니까?</b>",
         "cancel": "🚫 취소",
@@ -551,8 +551,8 @@ class UpdaterMod(loader.Module):
         "secure_boot_confirm": "❓ <b>هل تريد إعادة التشغيل في وضع الإقلاع الآمن؟</b>",
         "update_confirm": (
             "❓ <b>هل تريد تحديث؟\n\n<a"
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ <a'
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a> ⤑ <a'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a></b>'
         ),
         "no_update": "🚸 <b>هذا هو آخر إصدار. هل تريد تحديث؟</b>",
         "cancel": "🚫 إلغاء",
@@ -602,8 +602,8 @@ class UpdaterMod(loader.Module):
         ),
         "update_confirm": (
             "❓ <b>¿Quieres actualizar?\n\n<a"
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ <a'
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a> ⤑ <a'
+            ' href="https://github.com/hikariatama/Bampi/commit/{}">{}</a></b>'
         ),
         "no_update": "🚸 <b>Esta es la última versión. ¿Quieres actualizar?</b>",
         "cancel": "🚫 Cancelar",
@@ -621,7 +621,7 @@ class UpdaterMod(loader.Module):
         self.config = loader.ModuleConfig(
             loader.ConfigValue(
                 "GIT_ORIGIN_URL",
-                "https://github.com/hikariatama/Hikka",
+                "https://github.com/hikariatama/Bampi",
                 lambda: self.strings("origin_cfg_doc"),
                 validator=loader.validators.Link(),
             )
@@ -700,10 +700,10 @@ class UpdaterMod(loader.Module):
             msg_obj,
             self.strings("restarting_caption").format(
                 utils.get_platform_emoji(self._client)
-                if self._client.hikka_me.premium
+                if self._client.Bampi_me.premium
                 and CUSTOM_EMOJIS
                 and isinstance(msg_obj, Message)
-                else "Hikka"
+                else "Bampi"
             )
             if "LAVHOST" not in os.environ
             else self.strings("lavhost_restart").format(
@@ -711,7 +711,7 @@ class UpdaterMod(loader.Module):
                 ' document_id="5193117564015747203">✌️</emoji><emoji'
                 ' document_id="5195050806105087456">✌️</emoji><emoji'
                 ' document_id="5195457642587233944">✌️</emoji><b>'
-                if self._client.hikka_me.premium
+                if self._client.Bampi_me.premium
                 and CUSTOM_EMOJIS
                 and isinstance(msg_obj, Message)
                 else "lavHost"
@@ -729,7 +729,7 @@ class UpdaterMod(loader.Module):
             return
 
         with contextlib.suppress(Exception):
-            await main.hikka.web.stop()
+            await main.Bampi.web.stop()
 
         atexit.register(restart, *sys.argv[1:])
         handler = logging.getLogger().handlers[0]
@@ -849,7 +849,7 @@ class UpdaterMod(loader.Module):
                         " document_id=5193117564015747203>✌️</emoji><emoji"
                         " document_id=5195050806105087456>✌️</emoji><emoji"
                         " document_id=5195457642587233944>✌️</emoji><b>"
-                        if self._client.hikka_me.premium
+                        if self._client.Bampi_me.premium
                         and CUSTOM_EMOJIS
                         and isinstance(msg_obj, Message)
                         else "lavHost"
@@ -916,7 +916,7 @@ class UpdaterMod(loader.Module):
     async def _add_folder(self):
         folders = await self._client(GetDialogFiltersRequest())
 
-        if any(getattr(folder, "title", None) == "hikka" for folder in folders):
+        if any(getattr(folder, "title", None) == "Bampi" for folder in folders):
             return
 
         try:
@@ -936,7 +936,7 @@ class UpdaterMod(loader.Module):
                     folder_id,
                     DialogFilter(
                         folder_id,
-                        title="hikka",
+                        title="Bampi",
                         pinned_peers=(
                             [
                                 await self._client.get_input_entity(
@@ -954,18 +954,18 @@ class UpdaterMod(loader.Module):
                             )
                             if dialog.name
                             in {
-                                "hikka-logs",
-                                "hikka-onload",
-                                "hikka-assets",
-                                "hikka-backups",
-                                "hikka-acc-switcher",
+                                "Bampi-logs",
+                                "Bampi-onload",
+                                "Bampi-assets",
+                                "Bampi-backups",
+                                "Bampi-acc-switcher",
                                 "silent-tags",
                             }
                             and dialog.is_channel
                             and (
                                 dialog.entity.participants_count == 1
                                 or dialog.entity.participants_count == 2
-                                and dialog.name in {"hikka-logs", "silent-tags"}
+                                and dialog.name in {"Bampi-logs", "silent-tags"}
                             )
                             or (
                                 self._client.loader.inline.init_complete
@@ -977,7 +977,7 @@ class UpdaterMod(loader.Module):
                                 1554874075,
                                 1697279580,
                                 1679998924,
-                            ]  # official hikka chats
+                            ]  # official Bampi chats
                         ],
                         emoticon="🐱",
                         exclude_peers=[],
@@ -994,7 +994,7 @@ class UpdaterMod(loader.Module):
             )
         except Exception:
             logger.critical(
-                "Can't create Hikka folder. Possible reasons are:\n"
+                "Can't create Bampi folder. Possible reasons are:\n"
                 "- User reached the limit of folders in Telegram\n"
                 "- User got floodwait\n"
                 "Ignoring error and adding folder addition to ignore list"
